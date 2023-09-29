@@ -1,0 +1,120 @@
+.ourClients {
+  position: absolute;
+  top: calc(50% - 334.33px);
+  left: calc(50% - 141px);
+  font-size: 47px;
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 17.57rem;
+  height: 2.1rem;
+}
+.image41Icon {
+  position: relative;
+  width: 12.69rem;
+  height: 8.88rem;
+  object-fit: cover;
+}
+.falconx {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 15.5rem;
+  height: 2.88rem;
+  flex-shrink: 0;
+}
+.image40Icon {
+  position: relative;
+  width: 7.81rem;
+  height: 5.63rem;
+  object-fit: cover;
+}
+.image42Icon,
+.image44Icon,
+.image45Icon {
+  position: relative;
+  width: 14.13rem;
+  height: 4.25rem;
+  object-fit: cover;
+}
+.image44Icon,
+.image45Icon {
+  width: 17.38rem;
+  height: 2.88rem;
+}
+.image44Icon {
+  width: 16.38rem;
+  height: 6.63rem;
+}
+.home24Inner1,
+.image41Parent {
+  position: absolute;
+  height: 16.88rem;
+}
+.image41Parent {
+  top: 0;
+  left: 3.44rem;
+  width: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.94rem;
+  font-family: "Gilroy-Bold.woff";
+}
+.home24Inner1 {
+  top: 34.5rem;
+  left: calc(47.5% - 720px);
+  background-color: #430376;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.64rem;
+  /* font-family: "gilroy-semi-bold"; */
+  font-family: "Gilroy-Bold.woff";
+}
+.joinOurSatisfied {
+  position: absolute;
+  top: 17.19rem;
+  left: calc(50% - 320px);
+  font-size: 27px;
+  line-height: 126.2%;
+  color: #f8efff;
+  display: inline-block;
+  width: 40rem;
+  height: 1.88rem;
+  font-family: "Gilroy-Medium.woff";
+}
+.home24 {
+  position: relative;
+  background-color: #07041b;
+  /* width: 100%;
+  height: 64rem; */
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: duera;
+  width: 1518px;
+  height: 1024px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.image41Parent {
+  display: flex;
+  width: 200%;
+  animation: scroll 5s linear infinite;
+}
+
+.image41Parent {
+  flex: 1;
+  width: 90%;
+}

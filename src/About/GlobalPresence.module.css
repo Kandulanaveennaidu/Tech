@@ -1,0 +1,153 @@
+.trustCollaborationAnd {
+  color: #46047c;
+}
+.span {
+  color: #540494;
+}
+.atTechoptimaWeContainer {
+  position: absolute;
+  top: calc(50% - 191.29px);
+  left: calc(50% - 253.68px);
+  line-height: 1.73rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 31.71rem;
+  height: 23.91rem;
+}
+.atTechoptimaWeHoldDeepReWrapper {
+  position: absolute;
+  top: -37.29rem;
+  left: 28.05rem;
+  border-radius: 13.14px;
+  background-color: #fff;
+  width: 35.92rem;
+  height: 27.81rem;
+  overflow: hidden;
+  font-size: 1.23rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.ourEstablishment {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 10.63rem;
+  height: 2.13rem;
+  flex-shrink: 0;
+  font-size: 1.2rem;
+  left: -3px;
+}
+.india {
+  margin: 0;
+  /* font-size: 1.5rem; */
+}
+.indiaUsa {
+  position: relative;
+  font-size: 24px;
+  line-height: 126.2%;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 4.13rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  font-size: 2rem;
+}
+.ourEstablishmentParent {
+  position: absolute;
+  top: 17.75rem;
+  left: 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  font-size: 20px;
+  color: #b571ff;
+  /* font-family: Gilroy-Bold; */
+  font-family: inherit;
+  /* font-family: "Mulish", sans-serif; */
+  font-family: "gilroy-semi-bold";
+  font-size: 1.3rem;
+}
+.ukIrelandSaudiContainer,
+.weAlsoWork {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 9.56rem;
+  height: 1.13rem;
+  flex-shrink: 0;
+  /* font: -13px; */
+}
+.weAlsoWork {
+  left: -5px;
+}
+.ukIrelandSaudiContainer {
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  width: 10.19rem;
+  height: 7.06rem;
+}
+.weAlsoWorkAtParent {
+  position: absolute;
+  top: 17.75rem;
+  left: 57.13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  font-size: 19.5px;
+  color: #ffd786;
+  /* font-family: Gilroy-Bold; */
+  font-family: "gilroy-semi-bold";
+}
+.globalPresence {
+  position: absolute;
+  top: 11.13rem;
+  left: calc(48% - 178.5px);
+  font-size: 39.14px;
+  letter-spacing: 0.04em;
+  line-height: 2.45rem;
+  display: inline-block;
+  width: 21.18rem;
+  height: 2.1rem;
+}
+.frameIcon1 {
+  position: absolute;
+  top: 32.75rem;
+  left: calc(50% - 719.5px);
+  width: 90rem;
+  height: 31.37rem;
+  overflow: hidden;
+  opacity: 0.9;
+}
+.aboutus18 {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "Duera";
+  width: 1518px;
+  height: 1024px;
+}
+/* Default styles */
+.aboutus1Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjusted for responsiveness */
+}
+
+.aboutus1Child {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}

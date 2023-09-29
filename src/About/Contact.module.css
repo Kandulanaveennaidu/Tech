@@ -1,0 +1,326 @@
+.home26Inner1,
+.image41Parent {
+  position: absolute;
+  height: 16.88rem;
+}
+.image41Parent {
+  top: 0;
+  left: 3.44rem;
+  width: 244.06rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6.94rem;
+}
+.home26Inner1 {
+  top: -20.5rem;
+  left: calc(50% - 720px);
+  background-color: #430376;
+  width: 90rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.64rem;
+  font-family: Gilroy-Bold;
+}
+.joinOurSatisfied {
+  top: -29.06rem;
+  left: calc(50% - 320px);
+  font-size: 1.75rem;
+  line-height: 126.2%;
+  /* font-family: Gilroy-Medium; */
+  font-family: "gilroy-semi-bold";
+  color: #f8efff;
+  width: 40rem;
+  height: 1.88rem;
+}
+.contactUs,
+.getInTouch1,
+.joinOurSatisfied {
+  position: absolute;
+  display: inline-block;
+}
+.getInTouch1 {
+  top: 11rem;
+  left: calc(50% - 242px);
+  font-size: 1.25rem;
+  line-height: 126.2%;
+  /* font-family: Gilroy-Medium; */
+  font-family: "gilroy-semi-bold";
+  color: #f8efff;
+  width: 30.31rem;
+  height: 1.75rem;
+}
+.contactUs {
+  top: calc(45% - 394px);
+  left: calc(50% - 126px);
+  font-size: 42px;
+  letter-spacing: 0.04em;
+  line-height: 2.67rem;
+  width: 15.79rem;
+  height: 2.1rem;
+}
+.email,
+.firstName,
+.lastName,
+.mobile,
+.service {
+  position: absolute;
+  top: 17.38rem;
+  left: 10.94rem;
+  font-size: 16px;
+  line-height: 126.2%;
+  font-family: "Gilroy-Bold.woff";
+  display: inline-block;
+  width: 4.94rem;
+  height: 0.94rem;
+}
+.email,
+.lastName,
+.mobile,
+.service {
+  top: 32.5rem;
+  width: 3.38rem;
+}
+.email,
+.lastName,
+.service {
+  top: 24.94rem;
+  width: 2.63rem;
+}
+.lastName,
+.service {
+  top: 17.38rem;
+  left: 49.06rem;
+  width: 4.94rem;
+}
+.service {
+  top: 32.5rem;
+  width: 3.44rem;
+}
+.frameInput,
+.home26Child11 {
+  position: absolute;
+  left: 10.94rem;
+  width: 31.81rem;
+  height: 3.13rem;
+  overflow: hidden;
+}
+.frameInput {
+  border: 1px solid #cdcdcd;
+  /* font-family: Gilroy-Regular; */
+  font-family: "Gilroy-Regular.woff";
+  font-size: 18px;
+  background-color: #fff;
+  top: 19.56rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+.home26Child11 {
+  top: 34.69rem;
+}
+.home26Child11,
+.home26Child12,
+.home26Child13,
+.home26Child14 {
+  border: 1px solid #cdcdcd;
+  font-family: "Gilroy-Regular.woff";
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+.home26Child12 {
+  position: absolute;
+  top: 40.31rem;
+  left: 10.94rem;
+  width: 69.94rem;
+  height: 13.63rem;
+  overflow: hidden;
+}
+.home26Child13,
+.home26Child14 {
+  height: 3.13rem;
+}
+.home26Child13 {
+  position: absolute;
+  top: 27.13rem;
+  left: 10.94rem;
+  width: 69.94rem;
+  overflow: hidden;
+}
+.home26Child14 {
+  top: 19.56rem;
+  left: 49.06rem;
+  width: 31.81rem;
+}
+.home26Child14,
+.home26Child15,
+.home26Child16 {
+  position: absolute;
+  overflow: hidden;
+}
+.home26Child15 {
+  border: 1px solid #cdcdcd;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.13rem;
+  background-color: #fff;
+  top: 34.69rem;
+  left: 49.06rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
+  box-sizing: border-box;
+  width: 31.81rem;
+  height: 3.13rem;
+  opacity: 0.9;
+}
+.home26Child16 {
+  height: 35.6%;
+  width: 20.82%;
+  top: -1rem;
+  right: 0;
+  bottom: 60.4%;
+  left: 80.18%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.submitButton {
+  position: relative;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  left: 37rem;
+  width: 324px;
+  height: 64px;
+  color: 540494;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #540494;
+  border-radius: 16px;
+  font-family: "gilroy-semi-bold";
+  font-size: 18px;
+}
+
+.submitButton:hover {
+  background-color: rgba(149, 50, 255, 1);
+}
+
+.submitWrapper {
+  margin-top: -70px;
+}
+
+.home26 {
+  position: relative;
+  background-color: #07041b;
+  /* width: 100%; */
+  /* height: 70rem; */
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #cdcdcd;
+  font-family: "duera";
+  width: 1518px;
+  /* width: 1530px; */
+  height: 1074px;
+}
+
+input[type="text"]::placeholder {
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Gilroy-Regular.woff";
+  color: rgba(0, 0, 0, 1);
+}
+.getintoch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 165px;
+  font-family: "Gilroy-Medium.woff";
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.firstName {
+  width: 79px;
+  height: 15px;
+  top: 278px;
+  left: 175px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Gilroy-Bold.woff";
+}
+
+.lastName {
+  width: 79px;
+  height: 15px;
+  top: 278px;
+  left: 785px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Gilroy-Bold.woff";
+}
+.mobile {
+  width: 54px;
+  height: 15px;
+  top: 520px;
+  left: 175px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Gilroy-Bold.woff";
+}
+.email {
+  width: 42px;
+  height: 15px;
+  top: 399px;
+  left: 175px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Gilroy-Bold.woff";
+}
+.Service {
+  width: 55px;
+  height: 15px;
+  top: 520px;
+  left: 785px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Gilroy-Bold.woff";
+}
+
+.inputWithArrow {
+  background-image: url("../../public//arrows.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 15px;
+  padding-right: 30px;
+}
+
+.siderightside {
+  margin-left: -500px;
+}
+
+.home26Child16:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}

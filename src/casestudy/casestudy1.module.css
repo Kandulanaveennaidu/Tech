@@ -1,0 +1,100 @@
+.image20Icon {
+  position: absolute;
+  top: 4.69rem;
+  left: 0;
+  width: 50.5rem;
+  height: 69.5rem;
+  object-fit: cover;
+}
+/* casestudy4.module.css */
+.backButtons {
+  color: white;
+  padding: 10px 20px;
+}
+
+.cryptoTradingPlatforms {
+  position: absolute;
+  top: calc(42% - 332px);
+  left: calc(55% - 171px);
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 46.19rem;
+  height: 12.25rem;
+  font-size: 2.5rem;
+}
+.techoptima {
+  font-family: "gilroy-semi-bold";
+  color: #fff;
+  top: calc(50% - 332px);
+}
+.span {
+  color: #07041b;
+}
+
+.techoptimaHelpedACryptoTra {
+  /* height: 6rem;
+  margin-left: 12px;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 60px; */
+  width: 752px;
+  height: 100px;
+  top: 374px;
+  left: 549px;
+}
+.techoptimaHelpedACryptoTras {
+  width: 752px;
+  height: 400px;
+  top: 499px;
+  left: 549px;
+  margin-top: 20px;
+}
+.clientRequirements {
+  color: #7371f3;
+}
+.techoptima {
+  height: 7rem;
+}
+.span1 {
+  color: #530493;
+}
+.techoptimaHelpedAContainer {
+  position: absolute;
+  top: calc(37% - 108px);
+  left: calc(55% - 171px);
+  font-size: 1.13rem;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 47rem;
+  line-break: 23px;
+  height: 2rem;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.3rem;
+  /* line-break: 300px; */
+}
+.techoptimaHelpedACryptoTras {
+  /* line-break: 20px; */
+  height: 8rem;
+  margin-left: 12px;
+}
+
+.casestudy1 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.75rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  /* height: 1000px; */
+}
+.techoptimaHelpedACryptoTras {
+  width: auto !important ;
+  line-break: 200px;
+  margin-top: 90px;
+  margin-left: -3px;
+}

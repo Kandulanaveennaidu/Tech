@@ -1,0 +1,68 @@
+.dataManagementSystem {
+  position: absolute;
+  top: calc(45% - 332px);
+  left: calc(50% - 171px);
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 46.19rem;
+  height: 9.06rem;
+  font-family: "duera";
+}
+.projectDescription {
+  margin: 0;
+  color: #7371f3;
+}
+
+.backButtons {
+  padding: 10px 20px;
+  border: none;
+}
+
+.techoptimaDevelopedA {
+  margin: 0;
+  height: 4rem;
+}
+.theSystemSourcesDataFromV {
+  margin-bottom: false;
+}
+.integrationWithIceToSource {
+  margin: 0;
+  padding-left: 1.33rem;
+}
+.technologiesUsed {
+  color: #7371f3;
+  /* top: calc(45% - 332px); */
+}
+.projectDescriptionTechoptimContainer {
+  position: absolute;
+  top: calc(42% - 108px);
+  left: calc(50% - 171px);
+  font-size: inherit;
+  line-height: 126.2%;
+  font-family: inherit;
+  display: inline-block;
+  width: 47rem;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.1rem;
+}
+.layer1Icon {
+  position: absolute;
+  top: 6.31rem;
+  left: 0;
+  width: 34.69rem;
+  height: 36.44rem;
+  overflow: hidden;
+}
+.casestudy2 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 55rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.75rem;
+  color: #fff;
+  width: 1518px;
+  height: 1000px;
+}

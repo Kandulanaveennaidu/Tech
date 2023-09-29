@@ -1,0 +1,363 @@
+.ourCaseStudies,
+.ourLeaders {
+  position: absolute;
+  top: calc(50% - 1044px);
+  left: calc(50% - 210px);
+  font-size: 2.96rem;
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 26.28rem;
+  height: 2.1rem;
+}
+.ourLeaders {
+  top: calc(50% - 338px);
+  left: calc(40% - 146px);
+  width: 18.28rem;
+  font-size: 47px;
+}
+.knowTheTeam {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 8.19rem;
+  height: 1rem;
+  flex-shrink: 0;
+  margin-top: -8px;
+}
+.knowTheTeamWrapper {
+  position: absolute;
+  top: 10.44rem;
+  left: 68.44rem;
+  border-radius: 12px;
+  border: 2px solid #fbe980;
+  box-sizing: border-box;
+  width: 12.44rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: #fbe980;
+  font-family: "gilroy-semi-bold";
+}
+.ceoCfo,
+.pramod {
+  position: absolute;
+  top: 25.88rem;
+  left: 8.88rem;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 7.25rem;
+  height: 0.94rem;
+  font-size: 12px;
+  font-family: "gilroy-semi-bold";
+}
+.pramod {
+  top: 24.38rem;
+  left: 10.25rem;
+  font-size: 1.13rem;
+  color: #fff;
+  width: 4.5rem;
+  font-family: "gilroy-semi-bold";
+}
+.ceoCfoParent {
+  position: absolute;
+  top: 24.56rem;
+  left: 7.5rem;
+  border-radius: 24px;
+  background-color: #540494;
+  width: 25rem;
+  height: 28.31rem;
+  overflow: hidden;
+  font-size: 0.88rem;
+  color: #fbe980;
+  font-family: "gilroy-semi-bold-italic";
+}
+.atTechoptimaWe,
+.div,
+.div1 {
+  position: absolute;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 1.81rem;
+  height: 3.06rem;
+}
+.div {
+  top: 18.63rem;
+  left: calc(50% + 171px);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.atTechoptimaWe,
+.div1 {
+  top: 0.88rem;
+  left: calc(50% - 178px);
+}
+.atTechoptimaWe {
+  top: 4rem;
+  left: calc(50% - 173px);
+  font-size: 17.5px;
+  font-family: "gilroy-semi-bold-italic";
+  color: #07041b;
+  text-align: center;
+  width: 21.56rem;
+  height: 13rem;
+  /* font-family: "gilroy-semi-bold"; */
+}
+.home22Child11,
+.parent {
+  position: absolute;
+  background-color: #fff;
+  width: 25rem;
+  overflow: hidden;
+}
+.parent {
+  top: 24.56rem;
+  left: 7.5rem;
+  border-radius: 24px 24px 0 0;
+  height: 21.13rem;
+  text-align: left;
+  font-size: 5.19rem;
+  color: #19204b;
+  font-family: "Gilda Display";
+}
+.home22Child11 {
+  top: 24.25rem;
+  left: calc(50% - 200px);
+  border-radius: 24px;
+  height: 28.63rem;
+  font-family: "gilroy-semi-bold";
+}
+.bhaskar,
+.cto {
+  position: absolute;
+  top: 26.19rem;
+  left: 8.88rem;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 7.25rem;
+  height: 0.94rem;
+  font-size: 13px;
+  /* font-family: "duera"; */
+}
+.bhaskar {
+  top: 24.69rem;
+  left: 10.25rem;
+  font-size: 1.13rem;
+  /* font-family: Gilroy-Bold; */
+  font-family: "gilroy-semi-bold";
+  color: #fff;
+  width: 4.5rem;
+  /* font-family: "duera"; */
+}
+.asCtoILeadATeamOfInnovParent,
+.ctoParent {
+  position: absolute;
+  top: 24.25rem;
+  left: calc(50% - 200px);
+  border-radius: 24px;
+  background-color: #540494;
+  width: 25rem;
+  height: 28.63rem;
+  overflow: hidden;
+  font-size: 0.88rem;
+  color: #fbe980;
+  font-family: "gilroy-semi-bold";
+}
+.asCtoILeadATeamOfInnovParent {
+  border-radius: 24px 24px 0 0;
+  background-color: #fff;
+  height: 21.13rem;
+  text-align: left;
+  font-size: 5.19rem;
+  color: #19204b;
+  font-family: "Gilda Display";
+}
+.raghavacharyulu {
+  position: absolute;
+  top: 24.69rem;
+  left: 7.63rem;
+  font-size: 1.13rem;
+  line-height: 126.2%;
+  font-family: Gilroy-Bold;
+  color: #fff;
+  display: inline-block;
+  width: 9.75rem;
+  height: 0.94rem;
+  font-family: "gilroy-semi-bold";
+}
+.container,
+.groupPresidentParent {
+  position: absolute;
+  top: 24.13rem;
+  left: 62.19rem;
+  border-radius: 24px;
+  background-color: #540494;
+  width: 25rem;
+  height: 28.63rem;
+  overflow: hidden;
+  font-size: 0.88rem;
+
+  color: #fbe980;
+  font-family: "gilroy-semi-bold";
+}
+.container {
+  border-radius: 24px 24px 0 0;
+  background-color: #fff;
+  height: 20.81rem;
+  text-align: left;
+  font-size: 5.19rem;
+  color: #19204b;
+  font-family: "Gilda Display";
+}
+.image69Icon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 44.46px);
+  width: 5.49rem;
+  height: 6.85rem;
+  object-fit: cover;
+}
+.image69Wrapper {
+  position: absolute;
+  top: 41.81rem;
+  left: 16.5rem;
+  border-radius: 67.83px;
+  background-color: #fff;
+  width: 6.38rem;
+  height: 6.38rem;
+  overflow: hidden;
+}
+.image54Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6.44rem;
+  height: 6.15rem;
+  object-fit: cover;
+}
+.image54Wrapper {
+  position: absolute;
+  top: 41.81rem;
+  left: calc(50% - 54px);
+  border-radius: 67.83px;
+  background-color: #fff;
+  width: 6.38rem;
+  height: 6.38rem;
+  overflow: hidden;
+}
+.image71Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6.55rem;
+  height: 6.41rem;
+  object-fit: cover;
+}
+.image71Wrapper {
+  position: absolute;
+  top: 41.81rem;
+  left: 71.5rem;
+  border-radius: 68.16px;
+  background-color: #fff;
+  width: 6.38rem;
+  height: 6.38rem;
+  overflow: hidden;
+}
+.home22 {
+  position: relative;
+  background-color: #07041b;
+  /* width: 100%;
+  height: 64rem; */
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  /* width: 1530px; */
+  height: 1024px;
+}
+
+.image69Wrapper:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.image54Wrapper:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.image71Wrapper:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: black;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal.show {
+  display: flex;
+  opacity: 1;
+}
+
+.modalContent {
+  background: rgb(237, 239, 240);
+  /* background: rgb(255, 250, 250); */
+  padding: 4px;
+  max-width: 700px;
+  text-align: center;
+
+  border-radius: 10px;
+  font-family: "gilroy-semi-bold";
+}
+
+.modalContent button {
+  margin-top: 20px;
+  color: #000000;
+}
+
+.modal {
+  border-radius: 10px;
+}
+
+.modalContent {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.modalContent button {
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.ceoCfo,
+.cto,
+.groupPresidentParent {
+  border-radius: 20px;
+}
+.closeicon {
+}

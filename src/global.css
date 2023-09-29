@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "duera";
+  src: url(Fonts/Duera-NormBold-PERSONAL.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "duera-semi-bold";
+  src: url(Fonts/Duera-NormBold-PERSONAL.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "gilroy-semi-bold";
+  src: url(Fonts/gilroy-semi-bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "gilroy-semi-bold-italic";
+  src: url(Fonts/gilroy-semi-bold-italic.ttf) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Gilroy-Bold.woff";
+  src: url(Fonts/Gilroy-Bold.woff) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Duera-NormLigh-PERSONAL.ttf";
+  src: url(Fonts/Duera-NormLigh-PERSONAL.ttf) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Gilroy-Medium.woff";
+  src: url(Fonts/Gilroy-Medium.woff) format("truetype");
+  font-weight: Medium;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular.woff";
+  src: url(Fonts/Gilroy-Regular.woff) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Duera-CondBold-PERSONAL.ttf";
+  src: url(Fonts/Duera-CondBold-PERSONAL.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Duera-NormMedi-PERSONAL.ttf";
+  src: url(Fonts/Duera-NormMedi-PERSONAL.ttf) format("truetype");
+  font-weight: bold;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+html,
+body {
+  /* overflow-x: hidden; */
+  background-color: #07041b;
+}

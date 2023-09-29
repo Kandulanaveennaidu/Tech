@@ -1,0 +1,212 @@
+.letsConnect {
+  top: -20.05rem;
+  left: calc(50% - 76.5px);
+  font-size: 0.87rem;
+  line-height: 126.2%;
+  font-weight: 500;
+  text-align: left;
+  width: 6.02rem;
+  height: 0.75rem;
+}
+.vectorIcon {
+  position: relative;
+  width: 0.58rem;
+  height: 0.78rem;
+}
+.vectorWrapper {
+  position: absolute;
+  top: -20.5rem;
+  left: 47.37rem;
+  border-radius: 18.14px;
+  background-color: #540494;
+  height: 1.94rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0.58rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.layer1Icon {
+  top: -59.56rem;
+  left: 8.45rem;
+  width: 9.17rem;
+  height: 35.46rem;
+}
+.frameIcon,
+.layer1Icon,
+.layer1Icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.frameIcon {
+  top: -38.8rem;
+  left: -16rem;
+  width: 47.25rem;
+  height: 32.93rem;
+}
+.layer1Icon1 {
+  top: -14.59rem;
+  left: calc(50% - 729.8px);
+  width: 90.64rem;
+  height: 12.93rem;
+}
+.blueBox {
+  position: absolute;
+  height: 99.71%;
+  top: 0;
+  bottom: 0.29%;
+  left: 0;
+  background-color: #07041b;
+  width: 90rem;
+}
+.atTechoptimaOur,
+.ourMission {
+  position: absolute;
+  display: inline-block;
+}
+.ourMission {
+  top: -59.56rem;
+  left: calc(50% + 0.5px);
+  font-size: 1.61rem;
+  letter-spacing: 0.04em;
+  line-height: 1.61rem;
+  width: 9.83rem;
+  height: 1.38rem;
+}
+.atTechoptimaOur {
+  top: 3.3rem;
+  left: calc(50% - 258.98px);
+  line-height: 1.76rem;
+  font-weight: 600;
+  width: 32.37rem;
+  height: 16.03rem;
+}
+.atTechoptimaOurMissionIsWrapper {
+  position: absolute;
+  top: -51.85rem;
+  left: 45.5rem;
+  border-radius: 13.41px;
+  background-color: #fff;
+  width: 36.67rem;
+  height: 22.26rem;
+  overflow: hidden;
+  font-size: 1.26rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.whiteBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #07041b;
+  width: 90rem;
+  height: 63.81rem;
+}
+.ourVision {
+  position: absolute;
+  top: 11.06rem;
+  left: calc(46% - 88.5px);
+  font-size: 33px;
+  letter-spacing: 0.04em;
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 11.07rem;
+  height: 1.81rem;
+}
+.aboutus7Child1,
+.aboutus7Child2,
+.aboutus7Inner,
+.aboutus7Item {
+  position: absolute;
+  top: 12.69rem;
+  left: 14.3rem;
+  width: 6.06rem;
+  height: 5.72rem;
+}
+.aboutus7Child1,
+.aboutus7Child2,
+.aboutus7Inner {
+  left: 72rem;
+}
+.aboutus7Child1,
+.aboutus7Child2 {
+  top: 36.56rem;
+}
+.aboutus7Child2 {
+  /* left: 12.5rem; */
+  left: 14.3rem;
+}
+.vision {
+  color: #540494;
+}
+.visionCatalystForBusiness {
+  margin: 0;
+}
+.visionCatalystForContainer {
+  position: absolute;
+  top: calc(75% - 127.1px);
+  left: calc(48.6% - 309px);
+  line-height: 2.1rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 39.63rem;
+  height: 1.81rem;
+  font-family: inherit;
+  font-family: "gilroy-semi-bold";
+  font-size: 25px;
+}
+.textField {
+  position: absolute;
+  top: 18.25rem;
+  left: 23.9rem;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 44.63rem;
+  height: 19rem;
+  overflow: hidden;
+  font-size: 24px;
+  color: #07041b;
+  font-family: "Gilroy-Bold.woff";
+}
+.aboutus7 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 63.81rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "Duera";
+  width: 1518px;
+  height: 1024px;
+}
+.aboutus1Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.aboutus1Child {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}
+.middle {
+  margin-bottom: -10px;
+  margin-left: 2px;
+  margin-top: 6px;
+}
+
+/* @media screen and (max-width: 767px) {
+  .ourVision {
+    font-size: 2rem;
+  }
+
+  .visionCatalystForBusiness span {
+    font-size: 2.5rem;
+  }
+} */

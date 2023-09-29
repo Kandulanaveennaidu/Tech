@@ -1,0 +1,226 @@
+.ourProcess {
+  position: absolute;
+  top: 11.14rem;
+  left: calc(50% - 127px);
+  font-size: 39.14px;
+  letter-spacing: 0.04em;
+  line-height: 2.45rem;
+  display: inline-block;
+  font-family: "duera";
+  width: 15.85rem;
+  height: 2.1rem;
+}
+.aboutus15Child {
+  position: absolute;
+  top: 340px;
+  left: -92px;
+  border: 1px;
+  height: 504px;
+  width: 1623px;
+}
+.image73Icon {
+  top: 36rem;
+  left: 52.19rem;
+  width: 15.31rem;
+  height: 12.94rem;
+  object-fit: cover;
+}
+.div,
+.image73Icon,
+.wrapper {
+  position: absolute;
+}
+.div {
+  top: calc(50% - 15px);
+  left: calc(50% - 6px);
+  line-height: 126.2%;
+  display: inline-block;
+  width: 0.69rem;
+  height: 1.56rem;
+}
+.wrapper {
+  top: 37.63rem;
+  left: 52.44rem;
+  border-radius: 33px;
+  background-color: #fff;
+  width: 2.63rem;
+  height: 2.63rem;
+  overflow: hidden;
+  color: #19204b;
+}
+.aboutus15Inner,
+.aboutus15Item,
+.ellipseDiv {
+  position: absolute;
+  top: 29.25rem;
+  left: 10.81rem;
+  border-radius: 50%;
+  background-color: #000;
+  filter: blur(28px);
+  width: 19.31rem;
+  height: 2.25rem;
+  opacity: 0.4;
+}
+.aboutus15Inner,
+.ellipseDiv {
+  top: 48.88rem;
+  left: 53.88rem;
+  width: 11.94rem;
+}
+.ellipseDiv {
+  top: 29.25rem;
+  left: 62.19rem;
+  width: 19.06rem;
+}
+.requirementGathering {
+  position: absolute;
+  top: 29.88rem;
+  left: 11.69rem;
+  font-size: 1rem;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 17.88rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container,
+.image74Icon {
+  position: absolute;
+  top: 17.75rem;
+}
+.image74Icon {
+  left: 14.75rem;
+  width: 11.44rem;
+  height: 11.63rem;
+  object-fit: cover;
+}
+.container {
+  left: 24.63rem;
+  border-radius: 33px;
+  background-color: #fff;
+  width: 2.63rem;
+  height: 2.63rem;
+  overflow: hidden;
+  color: #19204b;
+  font-family: "gilroy-semi-bold";
+}
+.image75Icon {
+  position: absolute;
+  top: 17.44rem;
+  left: 65.13rem;
+  width: 15.06rem;
+  height: 12.25rem;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  top: 17.75rem;
+  left: 77.56rem;
+  border-radius: 33px;
+  background-color: #fff;
+  width: 2.63rem;
+  height: 2.63rem;
+  overflow: hidden;
+  color: #19204b;
+  /* font-family: Gilroy-Bold; */
+  font-family: "gilroy-semi-bold";
+}
+.groupChild {
+  position: absolute;
+  top: 1.12rem;
+  left: 2.27rem;
+  width: 10.19rem;
+  height: 12.5rem;
+  opacity: 0.2;
+}
+.image39Icon {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 14.56rem;
+  height: 13.81rem;
+  object-fit: cover;
+}
+.frameDiv {
+  position: absolute;
+  top: 2.06rem;
+  left: 2.9rem;
+  border-radius: 33px;
+  background-color: #fff;
+  width: 2.63rem;
+  height: 2.63rem;
+  overflow: hidden;
+}
+.groupItem {
+  position: absolute;
+  top: 13.31rem;
+  left: 0.5rem;
+  border-radius: 50%;
+  background-color: #000;
+  filter: blur(28px);
+  width: 13.75rem;
+  height: 2.25rem;
+  opacity: 0.4;
+}
+.conceptualiseDesign {
+  position: absolute;
+  top: 13.7rem;
+  left: 1.3rem;
+  font-size: 1rem;
+  line-height: 126.2%;
+  color: #fff;
+  display: inline-block;
+  width: 12.88rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vectorParent {
+  position: absolute;
+  top: 35.56rem;
+  left: 25.06rem;
+  width: 14.56rem;
+  height: 15.56rem;
+  color: #19204b;
+}
+.deploymentOperationalisatio,
+.developmentTest {
+  position: absolute;
+  top: 49.38rem;
+  left: 54rem;
+  font-size: 1rem;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 11.69rem;
+}
+.deploymentOperationalisatio {
+  top: 29.88rem;
+  left: 63.25rem;
+  width: 17.56rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+}
+.aboutus15 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.75rem;
+  color: #fff;
+  font-family: "gilroy-semi-bold";
+  width: 1518px;
+  height: 1024px;
+}
+/* Default styles */
+.aboutus1Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjusted for responsiveness */
+}
+
+.aboutus1Child {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}

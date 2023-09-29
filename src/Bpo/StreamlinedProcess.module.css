@@ -1,0 +1,247 @@
+.howDoesIt,
+.layer1Icon {
+  position: absolute;
+  opacity: 0.5;
+}
+.layer1Icon {
+  top: -30.12rem;
+  left: 14.69rem;
+  width: 29.06rem;
+  height: 24.27rem;
+  overflow: hidden;
+}
+.howDoesIt {
+  top: -27.62rem;
+  left: calc(50% + 24.49px);
+  font-size: 1.82rem;
+  letter-spacing: 0.04em;
+  line-height: 1.82rem;
+  display: inline-block;
+  width: 17.62rem;
+  height: 0.06rem;
+  filter: blur(20px);
+}
+.collaborativeSynergy {
+  color: #540494;
+}
+.collaborativeSynergyWeWork {
+  margin: 0;
+}
+.blankLine {
+  margin: 0;
+  color: #540494;
+}
+.collaborativeSynergyWeContainer {
+  position: absolute;
+  top: calc(50% - 86.28px);
+  left: calc(50% - 206.03px);
+  line-height: 1.57rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 25.75rem;
+  height: 10.83rem;
+}
+.collaborativeSynergyWeWorkWrapper {
+  position: absolute;
+  top: calc(50% - 862.52px);
+  left: calc(50% + 21.51px);
+  border-radius: 11.9px;
+  background-color: #fff;
+  filter: blur(20px);
+  width: 26.22rem;
+  height: 10.11rem;
+  overflow: hidden;
+  opacity: 0.5;
+  font-size: 1.12rem;
+  color: #07041b;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.3rem;
+}
+.howCanWe,
+.icon {
+  position: absolute;
+}
+.howCanWe {
+  top: -63.25rem;
+  left: calc(50% - 287px);
+  letter-spacing: 0.04em;
+  line-height: 2.73rem;
+  display: inline-block;
+  width: 35.88rem;
+  height: 1.94rem;
+}
+.icon {
+  top: 0;
+  left: calc(50% - 720px);
+  width: 91.5rem;
+  height: 58.43rem;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.tailoredSolutionsOurContainer {
+  position: absolute;
+  top: calc(50% - 116px);
+  left: calc(50% - 258px);
+  line-height: 2.1rem;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 32.19rem;
+  height: 14.56rem;
+}
+.tailoredSolutionsOurCustomWrapper {
+  position: absolute;
+  top: calc(50% - 1401px);
+  left: calc(50% + 36px);
+  border-radius: 16px;
+  background-color: #fff;
+  width: 35.25rem;
+  height: 18.13rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  color: #000;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.3rem;
+}
+.streamlinedProcessesFor {
+  position: absolute;
+  top: 14.13rem;
+  left: calc(50% - 421px);
+  letter-spacing: 0.04em;
+  line-height: 2.73rem;
+  display: inline-block;
+  color: #540494;
+  width: 52.56rem;
+  height: 1.94rem;
+  font-size: 40px;
+}
+.frameChild {
+  position: absolute;
+  top: 4.25rem;
+  left: 0;
+  border-radius: 28px;
+  background-color: #fff;
+  border: 2px solid #540494;
+  box-sizing: border-box;
+  width: 24.25rem;
+  height: 32rem;
+  overflow: hidden;
+}
+.objectIcon {
+  position: relative;
+  width: 3.22rem;
+  height: 4.56rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.objectWrapper {
+  position: absolute;
+  top: 0;
+  left: 7.88rem;
+  border-radius: 72px;
+  background-color: #fff;
+  border: 2px solid #540494;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+}
+.documentation,
+.effectiveDocumentationRepliContainer {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 104px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 13rem;
+  height: 2rem;
+}
+.effectiveDocumentationRepliContainer {
+  top: calc(50% - 51px);
+  left: calc(50% - 164px);
+  font-size: 1.19rem;
+  line-height: 1.54rem;
+  font-weight: 600;
+  font-family: "gilroy-semi-bold";
+  font-size: 19px;
+  width: 20.5rem;
+  height: 17.25rem;
+}
+.documentation {
+  font-family: "Gilroy-Bold.woff";
+  font-size: 23px;
+}
+
+.frameGroup {
+  position: relative;
+  width: 24.25rem;
+  height: 36.25rem;
+  left: 30px;
+}
+.objectIcon1,
+.objectIcon2 {
+  position: relative;
+  width: 4.63rem;
+  height: 4.56rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.objectIcon2 {
+  width: 4.54rem;
+}
+.continuousImprovement,
+.improvementGoalsDefineContainer {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 141px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 17.56rem;
+  height: 2rem;
+  font-size: 23px;
+  font-family: "Gilroy-Bold.woff";
+}
+.improvementGoalsDefineContainer {
+  top: calc(50% - 51px);
+  left: calc(50% - 164px);
+  font-size: 1.19rem;
+  line-height: 1.54rem;
+  font-weight: 600;
+  font-family: "gilroy-semi-bold";
+  font-size: 19px;
+  width: 20.5rem;
+  height: 12.25rem;
+}
+.frameParent {
+  position: absolute;
+  top: 20.19rem;
+  left: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.25rem;
+  font-size: 1.5rem;
+  color: #07041b;
+}
+.bpo6 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.51rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  height: 1024px;
+}
+.frameGroup:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}

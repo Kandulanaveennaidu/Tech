@@ -1,0 +1,318 @@
+.bpoProcessSetup {
+  position: absolute;
+  top: calc(50% - 334px);
+  left: calc(50% - 297px);
+  font-size: 44.88px;
+  letter-spacing: 0.04em;
+  line-height: 2.81rem;
+  display: inline-block;
+  font-family: "duera";
+  width: 37.13rem;
+  height: 2.19rem;
+}
+.vectorIcon {
+  height: 19.28%;
+  width: 23.17%;
+  top: 45.41%;
+  right: 71.34%;
+  bottom: 35.3%;
+  left: 5.49%;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 10%;
+  width: 7.11%;
+  top: 42.6%;
+  right: 83.96%;
+  bottom: 47.41%;
+  left: 8.93%;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+.vectorIcon2 {
+  height: 7.05%;
+  width: 5.01%;
+  top: 42.3%;
+  right: 85.01%;
+  bottom: 50.65%;
+  left: 9.97%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  height: 7.4%;
+  width: 5.26%;
+  top: 42.13%;
+  right: 84.89%;
+  bottom: 50.48%;
+  left: 9.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  height: 2.07%;
+  width: 1.17%;
+  top: 44.73%;
+  right: 87.37%;
+  bottom: 53.2%;
+  left: 11.46%;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  height: 2%;
+  width: 0.58%;
+  top: 44.77%;
+  right: 86.49%;
+  bottom: 53.23%;
+  left: 12.93%;
+}
+.vectorIcon6,
+.vectorIcon7 {
+  height: 19.3%;
+  width: 23.17%;
+  top: 45.4%;
+  right: 47.81%;
+  bottom: 35.3%;
+  left: 29.03%;
+}
+.vectorIcon7 {
+  height: 10%;
+  width: 7.11%;
+  top: 42.6%;
+  right: 60.42%;
+  bottom: 47.4%;
+  left: 32.47%;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  height: 7.05%;
+  width: 5.01%;
+  top: 42.3%;
+  right: 61.47%;
+  bottom: 50.65%;
+  left: 33.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon9 {
+  height: 7.4%;
+  width: 5.26%;
+  top: 42.13%;
+  right: 61.35%;
+  bottom: 50.48%;
+  left: 33.39%;
+}
+.vectorIcon10,
+.vectorIcon11 {
+  height: 2.07%;
+  width: 1.17%;
+  top: 44.73%;
+  right: 64.03%;
+  bottom: 53.2%;
+  left: 34.79%;
+}
+.vectorIcon11 {
+  height: 2.05%;
+  width: 1.04%;
+  top: 44.74%;
+  right: 62.67%;
+  bottom: 53.22%;
+  left: 36.3%;
+}
+.vectorIcon12 {
+  height: 19.3%;
+  width: 23.17%;
+  top: 45.4%;
+  right: 24.26%;
+  bottom: 35.3%;
+  left: 52.57%;
+}
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon13 {
+  height: 10%;
+  width: 7.11%;
+  top: 42.6%;
+  right: 36.88%;
+  bottom: 47.41%;
+  left: 56.02%;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+.vectorIcon14 {
+  height: 7.05%;
+  width: 5.01%;
+  top: 42.3%;
+  right: 37.92%;
+  bottom: 50.65%;
+  left: 57.06%;
+}
+.vectorIcon15,
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  position: absolute;
+  height: 7.4%;
+  width: 5.26%;
+  top: 42.13%;
+  right: 37.8%;
+  bottom: 50.48%;
+  left: 56.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  height: 2.07%;
+  width: 1.17%;
+  top: 44.73%;
+  right: 40.49%;
+  bottom: 53.2%;
+  left: 58.33%;
+}
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  height: 2.02%;
+  width: 1.02%;
+  top: 44.77%;
+  right: 39.17%;
+  bottom: 53.21%;
+  left: 59.82%;
+}
+.vectorIcon18,
+.vectorIcon19 {
+  height: 19.28%;
+  width: 18.47%;
+  top: 45.34%;
+  right: 5.98%;
+  bottom: 35.38%;
+  left: 75.56%;
+}
+.vectorIcon19 {
+  height: 10%;
+  width: 7.11%;
+  top: 42.52%;
+  right: 13.91%;
+  bottom: 47.48%;
+  left: 78.98%;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+.vectorIcon20,
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23 {
+  position: absolute;
+  height: 7.05%;
+  width: 5.01%;
+  top: 42.22%;
+  right: 14.95%;
+  bottom: 50.73%;
+  left: 80.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23 {
+  height: 7.4%;
+  width: 5.26%;
+  top: 42.05%;
+  right: 14.83%;
+  bottom: 50.55%;
+  left: 79.91%;
+}
+.vectorIcon22,
+.vectorIcon23 {
+  height: 2.07%;
+  width: 1.17%;
+  top: 44.87%;
+  right: 17.51%;
+  bottom: 53.07%;
+  left: 81.32%;
+}
+.vectorIcon23 {
+  height: 2%;
+  width: 1.04%;
+  top: 44.91%;
+  right: 16.16%;
+  bottom: 53.09%;
+  left: 82.8%;
+}
+.comprehensiveProcessMapping,
+.implementMonitor,
+.selectTheRight,
+.selectTheRight1 {
+  position: absolute;
+  top: calc(50% + 19px);
+  left: calc(48% - 621px);
+  line-height: 1.54rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 13.88rem;
+  height: 7.69rem;
+  font-size: 18px;
+}
+.selectTheRight {
+  margin-left: 12px;
+}
+.comprehensiveProcessMapping,
+.implementMonitor,
+.selectTheRight1 {
+  top: calc(50% + 12px);
+  left: calc(49% - 274px);
+}
+.comprehensiveProcessMapping,
+.selectTheRight1 {
+  left: calc(51% + 65px);
+}
+.comprehensiveProcessMapping {
+  top: calc(50% + 18px);
+  left: calc(52% + 394px);
+}
+.bpo10 {
+  position: relative;
+  background-color: #07041b;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.1rem;
+  width: 1518px;
+  height: 900px;
+}

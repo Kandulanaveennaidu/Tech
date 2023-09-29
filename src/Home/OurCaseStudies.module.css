@@ -1,0 +1,182 @@
+.ourCaseStudies {
+  position: absolute;
+  top: calc(50% - 334px);
+  left: calc(50% - 210px);
+  font-size: 47px;
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 26.28rem;
+  height: 2.1rem;
+  /* text-decoration: none;
+  color: white; */
+}
+.image20Icon {
+  position: relative;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+}
+.marketRiskManagement {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 14.69rem;
+  font-family: "Gilroy-Medium.woff";
+}
+.component778 {
+  border-radius: 16px;
+  background-color: #12072a;
+  border: 1.6px solid #fff;
+  box-sizing: border-box;
+  width: 17.88rem;
+  height: 22.13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-family: "Gilroy-Medium.woff";
+}
+.image23Icon {
+  position: relative;
+  width: 13.31rem;
+  height: 13.5rem;
+  object-fit: cover;
+  /* text-decoration: none;
+  color: white; */
+}
+.dataManagementSystem {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 16.13rem;
+  /* text-decoration: none;
+  color: white; */
+}
+.component779 {
+  border-radius: 16px;
+  background-color: #12072a;
+  border: 1.6px solid #fff;
+  box-sizing: border-box;
+  width: 17.84rem;
+  height: 22.09rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* Apply this style to remove underlines from all Link components */
+.link {
+  text-decoration: none;
+  color: inherit; /* Optional: Maintain the text color */
+}
+
+/* Apply this style specifically to the Link components within your component */
+.component778 a,
+.component779 a,
+.component780 a,
+.component781 a {
+  text-decoration: none;
+  color: inherit; /* Optional: Maintain the text color */
+}
+
+.commoditiesPortfolioValuatio {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 15.19rem;
+  height: 3.88rem;
+  flex-shrink: 0;
+}
+.image22Parent {
+  width: 17.25rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.63rem;
+}
+.component780 {
+  border-radius: 16px;
+  background-color: #12072a;
+  border: 1.6px solid #fff;
+  box-sizing: border-box;
+  width: 17.84rem;
+  height: 22.09rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.portfolioValuationSystem {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 14.69rem;
+  height: 2.44rem;
+  flex-shrink: 0;
+}
+.component781 {
+  border-radius: 16px;
+  background-color: #12072a;
+  border: 1.6px solid #fff;
+  box-sizing: border-box;
+  width: 17.84rem;
+  height: 22.09rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.component778Parent {
+  position: absolute;
+  top: 27rem;
+  left: 3.9rem;
+  width: 85rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 4.63rem;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "Gilroy-Medium.woff";
+  font-size: 0.9rem;
+}
+.home20 {
+  position: relative;
+  background-color: #07041b;
+  /* width: 100%;
+  height: 64rem; */
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  /* width: 1530px; */
+  height: 1024px;
+}
+
+.component778:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.component779:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.component780:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.component781:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}

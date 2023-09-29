@@ -1,0 +1,743 @@
+.techoptimalogo2Icon {
+  position: absolute;
+  top: 2.56rem;
+  left: 2.5rem;
+  width: 5.5rem;
+  height: 3.06rem;
+  object-fit: cover;
+}
+.aboutUs,
+.services {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+}
+.services {
+  color: #fbe980;
+}
+
+.aboutUs {
+  text-decoration: none;
+  color: white;
+}
+.aboutUs:hover {
+  color: #f9d71c;
+}
+.aboutUs,
+.services {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+}
+.aboutUsParent {
+  position: absolute;
+  top: 4.19rem;
+  left: 54.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.5rem;
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: "Duera-NormMedi-PERSONAL.ttf";
+}
+.getInTouch {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.38rem;
+  height: 1rem;
+  flex-shrink: 0;
+  font-family: "Duera-NormMedi-PERSONAL.ttf";
+}
+.getInTouchWrapper {
+  position: absolute;
+  top: 3.06rem;
+  left: 79.06rem;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 12.56rem;
+  height: 3.13rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.getInTouchWrapper:hover {
+  color: yellow;
+}
+.ourServices {
+  position: absolute;
+  top: 15.13rem;
+  left: calc(50% - 130px);
+  font-size: 39px;
+  letter-spacing: 0.04em;
+  line-height: 2.45rem;
+  display: inline-block;
+  width: 16.31rem;
+  height: 2.06rem;
+}
+.frameChild,
+.frameWrapper {
+  position: absolute;
+  left: 0;
+  border-radius: 28px;
+  width: 19.75rem;
+  height: 32rem;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.frameChild {
+  /* top: 0;
+  background: linear-gradient(
+    180deg,
+    #540494 4.17%,
+    rgba(112, 58, 155, 0.51) 93.23%,
+    rgba(40, 2, 70, 0)
+  );
+  filter: blur(10px); */
+
+  top: 0;
+  background: linear-gradient(
+    180deg,
+    #540494 4.17%,
+    rgba(112, 58, 155, 0.51) 93.23%,
+    rgba(40, 2, 70, 0)
+  );
+  filter: blur(10px);
+}
+.frameWrapper {
+  /* top: 4.25rem;
+  border: 2px solid #fff;
+  box-sizing: border-box; */
+  top: 4rem;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  height: 450px;
+}
+.staffAugmentation {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 107px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 13.69rem;
+  height: 2rem;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 23px;
+}
+.highlyQualifiedProfessionals {
+  margin: 0;
+  font-family: "Gilroy-Regular.woff";
+  font-size: 18px;
+  left: -20px;
+}
+.highlyQualifiedProfessionalsContainer {
+  position: absolute;
+  top: calc(50% - 55px);
+  left: calc(50% - 120px);
+  line-height: 1.54rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 15.13rem;
+  height: 18.56rem;
+  font-family: "Gilroy-Medium.woff";
+  font-size: 18px;
+}
+.layer1Icon {
+  position: relative;
+  width: 3.31rem;
+  height: 4.94rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Wrapper {
+  position: absolute;
+  top: 0;
+  left: 5rem;
+  border-radius: 72px;
+  background-color: #07041b;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup,
+.layer1Icon1 {
+  /* position: relative;
+  width: 19.75rem;
+  height: 36.25rem; */
+  position: relative;
+  width: 19.75rem;
+  height: 33.25rem;
+}
+.layer1Icon1 {
+  width: 5.75rem;
+  height: 4.56rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Container {
+  /* position: absolute;
+  top: 0;
+  left: 5rem;
+  border-radius: 72px;
+  background-color: #07041b;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 0;
+  /* left: 5rem; */
+  left: 5.7rem;
+  border-radius: 72px;
+  background-color: #07041b;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+}
+.endToEndProjectExecutionContainer,
+.managedServices {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 104px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 13rem;
+  height: 2rem;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 23px;
+}
+.endToEndProjectExecutionContainer {
+  top: calc(50% - 31px);
+  left: calc(50% - 120px);
+  font-size: 1.13rem;
+  line-height: 1.54rem;
+  width: 15.13rem;
+  height: 13.69rem;
+}
+.layer1Icon2 {
+  position: relative;
+  width: 5.25rem;
+  height: 4.81rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lowCostProductsLeveragingContainer,
+.pointSolutions {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 95px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 11.88rem;
+  height: 1.75rem;
+}
+.lowCostProductsLeveragingContainer {
+  top: calc(50% - 35px);
+  left: calc(50% - 120px);
+  font-size: 1.13rem;
+  line-height: 1.54rem;
+  width: 15.13rem;
+  height: 16.5rem;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  height: 79.2%;
+  width: 17.64%;
+  top: 20.8%;
+  right: 0;
+  bottom: 0;
+  left: 82.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  right: 17.64%;
+  left: 64.71%;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  height: 1.42%;
+  width: 14.35%;
+  top: 23.98%;
+  right: 10.48%;
+  bottom: 74.6%;
+  left: 75.17%;
+}
+.vectorIcon3 {
+  height: 9.41%;
+  width: 7.79%;
+  top: 88.37%;
+  right: 13.75%;
+  bottom: 2.22%;
+  left: 78.46%;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8 {
+  position: absolute;
+  height: 56.12%;
+  width: 16.1%;
+  top: 29.39%;
+  right: 17.48%;
+  bottom: 14.48%;
+  left: 66.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8 {
+  width: 15.76%;
+  right: 1.72%;
+  left: 82.52%;
+}
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8 {
+  height: 99.91%;
+  width: 31.34%;
+  top: 0;
+  right: 68.66%;
+  bottom: 0.09%;
+  left: 0;
+}
+.vectorIcon7,
+.vectorIcon8 {
+  right: 37.24%;
+  left: 31.42%;
+}
+.vectorIcon8 {
+  height: 8.48%;
+  width: 7.02%;
+  top: 89.83%;
+  right: 65.07%;
+  bottom: 1.69%;
+  left: 27.91%;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon9 {
+  position: absolute;
+  height: 2.91%;
+  width: 2.41%;
+  top: 2.59%;
+  right: 51.2%;
+  bottom: 94.5%;
+  left: 46.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13 {
+  height: 78.86%;
+  width: 28.47%;
+  top: 8.27%;
+  right: 68.75%;
+  bottom: 12.87%;
+  left: 2.78%;
+}
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13 {
+  width: 28.75%;
+  right: 40%;
+  left: 31.25%;
+}
+.vectorIcon12,
+.vectorIcon13 {
+  height: 89.12%;
+  width: 100%;
+  top: 10.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon13 {
+  height: 78.25%;
+  width: 96.27%;
+  top: 16.32%;
+  right: 1.86%;
+  bottom: 5.43%;
+  left: 1.87%;
+}
+.uiUx {
+  position: absolute;
+  height: 81.57%;
+  width: 52.24%;
+  top: 0;
+  left: 24.25%;
+  line-height: 1.36rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.vectorParent {
+  position: absolute;
+  height: 32.64%;
+  width: 78.74%;
+  top: 37.27%;
+  right: 15.38%;
+  bottom: 30.09%;
+  left: 5.88%;
+}
+.layer1 {
+  position: relative;
+  width: 4.75rem;
+  height: 3.94rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Wrapper1 {
+  position: absolute;
+  top: 0;
+  left: 5.7rem;
+  border-radius: 72px;
+  background-color: #07041b;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.uiuxServices,
+.userCentricDesignApproachContainer {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 84px);
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 10.56rem;
+  height: 2rem;
+}
+.userCentricDesignApproachContainer {
+  top: calc(50% - 31px);
+  left: calc(50% - 120px);
+  font-size: 1.13rem;
+  line-height: 1.54rem;
+  width: 15.13rem;
+  height: 15.5rem;
+}
+.frameParent2 {
+  position: relative;
+  width: 19.75rem;
+  height: 36.25rem;
+  font-size: 0.72rem;
+}
+.frameParent {
+  position: absolute;
+  top: 24.14rem;
+  left: calc(50% - 677px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.88rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.3rem;
+}
+
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 79.2%;
+  width: 17.64%;
+  top: 20.8%;
+  right: 0;
+  bottom: 0;
+  left: 82.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  right: 17.64%;
+  left: 64.72%;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  height: 1.42%;
+  width: 14.35%;
+  top: 23.98%;
+  right: 10.47%;
+  bottom: 74.6%;
+  left: 75.17%;
+}
+.vectorIcon4 {
+  height: 9.41%;
+  width: 7.79%;
+  top: 88.37%;
+  right: 13.75%;
+  bottom: 2.22%;
+  left: 78.46%;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  height: 56.13%;
+  width: 16.1%;
+  top: 29.39%;
+  right: 17.48%;
+  bottom: 14.48%;
+  left: 66.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  width: 15.76%;
+  right: 1.72%;
+  left: 82.52%;
+}
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 99.91%;
+  width: 31.34%;
+  top: 0;
+  right: 68.66%;
+  bottom: 0.09%;
+  left: 0;
+}
+.vectorIcon8,
+.vectorIcon9 {
+  right: 37.24%;
+  left: 31.42%;
+}
+.vectorIcon9 {
+  height: 8.48%;
+  width: 7.02%;
+  top: 89.83%;
+  right: 65.06%;
+  bottom: 1.68%;
+  left: 27.91%;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  position: absolute;
+  height: 2.91%;
+  width: 2.41%;
+  top: 2.59%;
+  right: 51.2%;
+  bottom: 94.5%;
+  left: 46.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  height: 78.86%;
+  width: 28.47%;
+  top: 8.27%;
+  right: 68.75%;
+  bottom: 12.87%;
+  left: 2.78%;
+}
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  width: 28.75%;
+  right: 40%;
+  left: 31.24%;
+}
+.vectorIcon13,
+.vectorIcon14 {
+  height: 89.13%;
+  width: 100%;
+  top: 10.88%;
+  right: 0;
+  bottom: -0.01%;
+  left: 0;
+}
+.vectorIcon14 {
+  height: 78.25%;
+  width: 96.27%;
+  top: 16.32%;
+  right: 1.86%;
+  bottom: 5.43%;
+  left: 1.87%;
+}
+.uiUx {
+  position: absolute;
+  height: 81.57%;
+  width: 52.24%;
+  top: 0;
+  left: 24.25%;
+  line-height: 1.36rem;
+  font-weight: 600;
+  display: inline-block;
+  font-family: "Gilroy-Bold.woff";
+}
+.vectorParent {
+  position: absolute;
+  height: 32.64%;
+  width: 78.74%;
+  top: 37.27%;
+  right: 15.38%;
+  bottom: 30.09%;
+  left: 5.88%;
+}
+.layer1 {
+  position: relative;
+  width: 4.75rem;
+  height: 3.94rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Wrapper1 {
+  /* position: absolute;
+  top: 0;
+  left: 5.7rem;
+  border-radius: 72px;
+  background-color: #07041b;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  color: #000; */
+
+  position: absolute;
+  top: 0;
+  left: 5.7rem;
+  border-radius: 72px;
+  background-color: #07041b;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+  width: 8.5rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.uiuxServices,
+.userCentricDesignApproachContainer {
+  position: absolute;
+  top: calc(50% - 119px);
+  left: calc(50% - 84px);
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 10.56rem;
+  height: 2rem;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.3rem;
+}
+.userCentricDesignApproachContainer {
+  top: calc(50% - 55px);
+  left: calc(50% - 120px);
+  font-size: 1rem;
+  line-height: 1.54rem;
+  font-weight: 500;
+  width: 15.13rem;
+  height: 17rem;
+}
+.frameParent2 {
+  position: relative;
+  width: 19.75rem;
+  height: 36.25rem;
+  font-size: 0.72rem;
+}
+.frameParent {
+  position: absolute;
+  top: 21.94rem;
+  left: 4.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.88rem;
+  font-size: 1.5rem;
+  font-family: "Gilroy-Bold.woff";
+}
+.services1 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Duera";
+  width: 1518px;
+  height: 1024px;
+}
+.frameGroup:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.frameParent2:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}

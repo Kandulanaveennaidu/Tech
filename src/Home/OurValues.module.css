@@ -1,0 +1,173 @@
+.ourVision {
+  position: absolute;
+  top: -17.87rem;
+  left: calc(50% - 64.6px);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  line-height: 1.36rem;
+  display: inline-block;
+  width: 7.15rem;
+  height: 1.17rem;
+}
+.aboutus10Inner,
+.aboutus10Item {
+  position: absolute;
+  top: -16.83rem;
+  left: 23.56rem;
+  width: 3.84rem;
+  height: 3.61rem;
+}
+.aboutus10Inner {
+  left: 65.75rem;
+}
+.aboutus10Child1,
+.aboutus10Child2 {
+  position: absolute;
+  top: 5.01rem;
+  left: 61.87rem;
+  width: 3.92rem;
+  height: 3.69rem;
+}
+.aboutus10Child2 {
+  left: 23.6rem;
+}
+.aboutus10Child3,
+.aboutus10Child4 {
+  position: absolute;
+  height: 49.92%;
+  width: 61.06%;
+  top: 0;
+  right: -28.91%;
+  bottom: 40.08%;
+  left: 37.85%;
+  max-width: 75%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.aboutus10Child4 {
+  height: 50.96%;
+  width: 60.88%;
+  right: 9.12%;
+  bottom: 41.04%;
+  left: -90px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: -0.62rem;
+  left: -0.12rem;
+  background-color: #07041b;
+  filter: blur(4px);
+  width: 100rem;
+  height: 35.19rem;
+  opacity: 0.7;
+}
+.ourValues {
+  position: absolute;
+  top: 11.06rem;
+  left: calc(50% - 115px);
+  font-size: 33px;
+  letter-spacing: 0.04em;
+  line-height: 2.45rem;
+  display: inline-block;
+  width: 14.34rem;
+  height: 2.1rem;
+}
+.chessboardIcon,
+.ourStrategy {
+  position: absolute;
+  top: 92.88rem;
+  left: calc(50% - 1185px);
+  width: 148.11rem;
+  height: 22.25rem;
+}
+.ourStrategy {
+  top: 74.19rem;
+  left: calc(50% - 346px);
+  font-size: 6.25rem;
+  letter-spacing: 0.04em;
+  line-height: 6.25rem;
+  display: inline-block;
+  width: 43.31rem;
+  height: 5.38rem;
+}
+.respectForIndividuals {
+  color: #540494;
+}
+.trustCollaborationAnd {
+  color: #07041b;
+}
+.strongRelationshipsTrustC {
+  margin-bottom: false;
+}
+.respectForIndividualsCusto {
+  margin: 0;
+  padding-left: 1.33rem;
+}
+.respectForIndividualsContainer {
+  position: absolute;
+  top: calc(45% - 198px);
+  left: calc(50% - 309px);
+  line-height: 2.1rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 38.63rem;
+  height: 23.19rem;
+}
+.respectForIndividualsCustoWrapper {
+  position: absolute;
+  top: 15.9rem;
+  left: calc(50% - 350px);
+  border-radius: 16px;
+  background-color: #fff;
+  width: 43.75rem;
+  height: 28rem;
+  overflow: hidden;
+  font-size: inherit;
+  color: #07041b;
+  font-family: inherit;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 24px;
+}
+.aboutus10 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  height: 800px;
+}
+.strongRelationshipsTrustCs {
+  margin-left: 40px;
+}
+.strongRelationshipsTrustCss {
+  margin-left: 60px;
+}
+.highstandards {
+  margin-left: 20px;
+}
+/* OurValues.module.css */
+
+/* Add your existing styles here */
+
+/* @media screen and (max-width: 767px) {
+  .ourValues {
+    font-size: 2.4rem; 
+  }
+
+  .respectForIndividualsCustoWrapper span {
+    font-size: 1.9rem; 
+  }
+  .respectForIndividualsCustoWrapper {
+    height: 1000px;
+  }
+
+  .respectForIndividualsContainer {
+    top: calc(20% - 198px);
+  }
+} */

@@ -1,0 +1,125 @@
+.qualityMetricsFor {
+  position: absolute;
+  top: calc(50% - 334px);
+  left: calc(50% - 398px);
+  letter-spacing: 0.04em;
+  line-height: 3.32rem;
+  display: inline-block;
+  width: 49.75rem;
+  height: 2rem;
+  font-size: 43px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 28px;
+  width: 27.5rem;
+  height: 34.5rem;
+  overflow: hidden;
+}
+.clearlyDefineAnd,
+.defineYourKpis {
+  position: absolute;
+  top: calc(50% - 268px);
+  left: calc(50% - 174px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 21.69rem;
+  height: 2rem;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 24px;
+}
+.clearlyDefineAnd {
+  top: calc(50% + 120px);
+  left: calc(50% - 164px);
+  /* font-size: 1.19rem; */
+  line-height: 1.54rem;
+  font-weight: 600;
+
+  font-size: 19px;
+  width: 20.5rem;
+  height: 7.69rem;
+}
+.frameGroup {
+  position: relative;
+  width: 27.5rem;
+  height: 35.5rem;
+}
+.implementEffectivePerformanc,
+.monitorPerformanceMetrics {
+  position: absolute;
+  top: calc(50% - 268px);
+  left: calc(50% - 180px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 22.5rem;
+  height: 2rem;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 24px;
+}
+.monitorPerformanceMetrics {
+  top: calc(50% + 120px);
+  left: calc(50% - 164px);
+  /* font-size: 1.19rem; */
+  line-height: 1.54rem;
+  font-weight: 600;
+  /* font-family: "gilroy-semi-bold"; */
+  font-size: 19px;
+  width: 20.5rem;
+  height: 6.5rem;
+}
+.establishContinuousImproveme,
+.setUpContinuous {
+  position: absolute;
+  top: calc(50% - 268px);
+  left: calc(50% - 189px);
+  line-height: 2.1rem;
+  display: inline-block;
+  width: 23.56rem;
+  height: 2rem;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 24px;
+}
+.setUpContinuous {
+  top: calc(50% + 120px);
+  left: calc(50% - 164px);
+  /* font-size: 1.19rem; */
+  line-height: 1.54rem;
+  font-weight: 600;
+  /* font-family: "gilroy-semi-bold"; */
+  font-size: 19px;
+  width: 20.5rem;
+  height: 6.06rem;
+}
+.frameParent {
+  position: absolute;
+  top: 18.13rem;
+  left: calc(50% - 680px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  font-size: 1.5rem;
+  color: #07041b;
+}
+.bpo15 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.7rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  height: 1024px;
+}
+/* QualityMetricesForBetterResults.module.css */
+
+.frameGroup:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}

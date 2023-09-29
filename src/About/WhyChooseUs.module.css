@@ -1,0 +1,272 @@
+.groupParent {
+  width: 48.63rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem;
+}
+.frameChild11 {
+  position: relative;
+  width: 3.06rem;
+  height: 3rem;
+}
+.informedTechnologyDecisions {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 42.69rem;
+  flex-shrink: 0;
+}
+.groupParent1 {
+  width: 48.63rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem;
+}
+.frameChild12 {
+  position: relative;
+  width: 3.06rem;
+  height: 3.06rem;
+}
+.transformingBusinessProcesse {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 43.38rem;
+  flex-shrink: 0;
+}
+.groupParent2 {
+  width: 48.63rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.5rem;
+}
+.frameChild13,
+.frameChild15 {
+  position: relative;
+  width: 3.06rem;
+  height: 2.28rem;
+}
+.frameChild15 {
+  width: 3rem;
+  height: 3rem;
+}
+.frameParent13,
+.groupParent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem;
+}
+.frameParent13 {
+  position: absolute;
+  top: -52.5rem;
+  left: 38.38rem;
+  width: 49.06rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2.25rem;
+  text-align: left;
+  color: #f8efff;
+  font-family: Gilroy-SemiBold;
+}
+.whyChooseUs {
+  position: absolute;
+  top: calc(50% - 334.33px);
+  left: calc(50% - 195.06px);
+  font-size: 47px;
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 24.45rem;
+  height: 2.1rem;
+}
+.satisfiedIcon {
+  position: relative;
+  width: 4.51rem;
+  height: 4.51rem;
+}
+.agileMethodologyFor {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 17.54rem;
+  font-size: 18px;
+}
+.satisfiedParent {
+  position: absolute;
+  top: 22.5rem;
+  left: 64.69rem;
+  height: 11.02rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.51rem;
+  color: #f8efff;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 1.3rem;
+}
+.systemCentralRadial {
+  position: relative;
+  width: 4.57rem;
+  height: 4.26rem;
+}
+.comprehensiveRangeOf {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 24.18rem;
+  font-size: 18px;
+  font-family: "Gilroy-Bold.woff";
+}
+.systemCentralRadialParent {
+  position: absolute;
+  top: 22.5rem;
+  left: calc(50% - 187px);
+  height: 11.02rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.51rem;
+  color: #f8efff;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 1rem;
+}
+.frameChild16 {
+  position: relative;
+  width: 4.7rem;
+  height: 3.82rem;
+}
+.deepIndustryKnowledge {
+  position: relative;
+  line-height: 126.2%;
+  display: inline-block;
+  width: 17.54rem;
+  height: 4.07rem;
+  flex-shrink: 0;
+  font-size: 18px;
+}
+.groupParent6 {
+  position: absolute;
+  top: 22.5rem;
+  left: 7.75rem;
+  height: 11.02rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.51rem;
+  color: #f8efff;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 1rem;
+}
+.frameChild17 {
+  position: relative;
+  width: 4.54rem;
+  height: 3.45rem;
+}
+.groupParent7 {
+  position: absolute;
+  top: 39.63rem;
+  left: 7.75rem;
+  height: 11.02rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.51rem;
+  color: #f8efff;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 1rem;
+}
+.frameChild18 {
+  position: relative;
+  width: 4.7rem;
+  height: 3.76rem;
+}
+.groupParent8 {
+  position: absolute;
+  top: 39.63rem;
+  left: 64.95rem;
+  height: 11.02rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.51rem;
+  color: #f8efff;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 1rem;
+}
+.layer1Icon5 {
+  position: relative;
+  width: 2.96rem;
+  height: 3.77rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Group {
+  position: absolute;
+  top: 39.63rem;
+  left: 38.8rem;
+  height: 11.02rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.51rem;
+  color: #f8efff;
+  font-family: "Gilroy-Bold.woff";
+  font-size: 1rem;
+}
+.home18 {
+  position: relative;
+  background-color: #07041b;
+  /* width: 100%;
+    height: 64rem; */
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  /* width: 1530px; */
+  height: 1024px;
+}
+
+.groupParent6:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.groupParent7:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.groupParent8:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.layer1Group:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.systemCentralRadialParent:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.satisfiedParent:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}

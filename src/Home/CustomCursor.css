@@ -1,0 +1,12 @@
+.customCursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  background-color: #ff5733;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease-out;
+  z-index: 9999;
+}

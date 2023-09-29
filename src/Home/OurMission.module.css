@@ -1,0 +1,232 @@
+.aboutus3Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+}
+.aboutus3Child {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}
+.trailingCursorIcon {
+  height: 59.94rem;
+}
+.techoptimalogo2Icon {
+  position: absolute;
+  top: -24.94rem;
+  left: 2.5rem;
+  width: 5.5rem;
+  height: 3.06rem;
+  object-fit: cover;
+}
+.services {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+}
+.servicesParent {
+  position: absolute;
+  top: -23.31rem;
+  left: 36.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.5rem;
+}
+.getInTouch {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.38rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.getInTouchWrapper {
+  position: absolute;
+  top: -24.44rem;
+  left: 75.06rem;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 12.56rem;
+  height: 3.13rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+}
+.empoweringDigitalTransformat,
+.letsConnect {
+  position: absolute;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.empoweringDigitalTransformat {
+  top: -29.06rem;
+  left: calc(50% - 316px);
+  font-size: 1.94rem;
+  line-height: 3.23rem;
+  text-align: center;
+  width: 39.5rem;
+  height: 5.39rem;
+}
+.letsConnect {
+  top: -20.05rem;
+  left: calc(50% - 76px);
+  font-size: 0.87rem;
+  line-height: 126.2%;
+  font-weight: 500;
+  width: 6.02rem;
+  height: 0.75rem;
+}
+.vectorIcon {
+  position: relative;
+  width: 0.58rem;
+  height: 0.78rem;
+}
+.vectorWrapper {
+  position: absolute;
+  top: -20.5rem;
+  left: 47.18rem;
+  border-radius: 18.14px;
+  background-color: #540494;
+  height: 1.94rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0.58rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.layer1Icon {
+  top: 11.06rem;
+  left: 11.75rem;
+  width: 10.41rem;
+  height: 40.25rem;
+}
+.frameIcon,
+.layer1Icon,
+.layer1Icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.frameIcon {
+  top: 30.63rem;
+  left: 0;
+  width: 53.63rem;
+  height: 37.38rem;
+}
+.layer1Icon1 {
+  top: 64.5rem;
+  left: calc(50% - 729px);
+  width: 91.13rem;
+  height: 13rem;
+}
+.ourMission {
+  position: absolute;
+  top: 11.13rem;
+  left: calc(48% - 98px);
+  font-size: 33.66px;
+  letter-spacing: 0.04em;
+  line-height: 2.1rem;
+  display: inline-block;
+  text-align: center;
+  width: 12.88rem;
+  height: 1.81rem;
+}
+.mission {
+  color: #540494;
+}
+.incrediblyDesignedPragmatic {
+  color: #07041b;
+}
+.solutionsIncrediblyDesigned {
+  margin-bottom: false;
+}
+.missionBringOverallGrowth {
+  margin: 0;
+  padding-left: 1.33rem;
+}
+.missionBringOverallContainer {
+  position: absolute;
+  top: calc(76% - 167.5px);
+  left: calc(50% - 309px);
+  line-height: 2.1rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 38.63rem;
+  height: 20.94rem;
+  font-size: 24px;
+}
+.missionBringOverallGrowthWrapper {
+  /* position: absolute;
+  top: 17.81rem;
+  left: 39.75rem;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 43.75rem;
+  height: 23rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: inherit;
+  color: #07041b; */
+  position: absolute;
+  top: 18.81rem;
+  left: 38.75rem;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 43.75rem;
+  height: 26.56rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: inherit;
+  color: #07041b;
+  font-family: inherit;
+  font-family: "gilroy-semi-bold";
+  font-size: 24px;
+  padding: 10px;
+}
+
+.aboutus3 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  height: 1024px;
+}
+.aboutus1Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.aboutus1Child {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}
+
+/* 
+@media screen and (max-width: 767px) {
+  .ourMission {
+    font-size: 2rem; 
+  }
+
+  .missionBringOverallGrowth span {
+    font-size: 2rem;
+  }
+} */

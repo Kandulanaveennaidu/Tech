@@ -1,0 +1,67 @@
+.commoditiesPortfolioValuatio {
+  position: absolute;
+  top: calc(44% - 332px);
+  left: calc(50% - 171px);
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 46.19rem;
+  height: 9.06rem;
+}
+
+.backButtons {
+  padding: 10px 20px;
+  border: none;
+}
+.projectOverview {
+  margin: 0;
+  color: #7371f3;
+}
+.ourTeamDeveloped {
+  margin: 0;
+}
+.projectOverviewOurContainer {
+  position: absolute;
+  top: calc(44% - 109px);
+  left: calc(50% - 171px);
+  font-size: 1.13rem;
+  line-height: 126.2%;
+  font-family: Gilroy-Medium;
+  display: inline-block;
+  width: 47rem;
+  font-family: "gilroy-semi-bold";
+  font-size: 1.1rem;
+}
+.layer1Icon {
+  position: absolute;
+  top: 8.38rem;
+  left: 0;
+  width: 36.81rem;
+  height: 41.06rem;
+  overflow: hidden;
+}
+.freepikCharacter1Inject1Icon {
+  position: absolute;
+  height: 51.86%;
+  width: 31.52%;
+  top: 40.02%;
+  right: 68.48%;
+  bottom: -0.88%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.casestudy3 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 56rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.75rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  height: 1000px;
+}

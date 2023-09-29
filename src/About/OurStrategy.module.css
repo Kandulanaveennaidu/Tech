@@ -1,0 +1,120 @@
+.atTechoptimaWeHoldDeepReWrapper {
+  position: absolute;
+  top: -37.29rem;
+  left: 27.99rem;
+  border-radius: 13.14px;
+  background-color: #fff;
+  width: 35.92rem;
+  height: 27.81rem;
+  overflow: hidden;
+  font-size: 1.23rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.aboutus13Child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #07041b;
+  filter: blur(4px);
+  width: 90rem;
+  height: 10.19rem;
+  opacity: 0.8;
+}
+.chessboardIcon {
+  position: absolute;
+  top: 56.53rem;
+  left: calc(46% - 720px);
+  width: 100rem;
+  height: 8.84rem;
+  overflow: hidden;
+}
+.ourStrategy {
+  position: absolute;
+  top: 22.17rem;
+  left: calc(47% - 136px);
+  font-size: 39.14px;
+  letter-spacing: 0.04em;
+  line-height: 2.45rem;
+  display: inline-block;
+  width: 16.95rem;
+  height: 2.1rem;
+}
+.aboutus13Child5,
+.aboutus13Child6 {
+  position: absolute;
+  height: 34.14%;
+  width: 14.93%;
+  top: 1px.79%;
+  right: 71.32%;
+  bottom: 5.07%;
+  left: 13.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.aboutus13Child6 {
+  height: 21.09%;
+  width: 10.95%;
+  top: 73.54%;
+  right: 64.19%;
+  bottom: 5.37%;
+  left: 24.86%;
+}
+.ourStrategyAtContainer {
+  position: absolute;
+  top: calc(50% - 151.5px);
+  left: calc(50% - 309px);
+  line-height: 2.1rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 38.63rem;
+  height: 18.88rem;
+}
+.ourStrategyAtTechoptimaRevWrapper {
+  position: absolute;
+  top: 28.26rem;
+  left: 38.75rem;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 43.75rem;
+  height: 26.56rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  color: #07041b;
+  font-family: inherit;
+  font-family: "gilroy-semi-bold";
+  font-size: 24px;
+  height: 350px;
+}
+.aboutus13 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  /* font-family: "Duera PERSONAL USE Normal"; */
+  font-family: "duera";
+  width: 1518px;
+  height: 1024px;
+}
+/* Default styles */
+.aboutus1Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjusted for responsiveness */
+}
+
+.aboutus1Child {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}
+.span {
+  color: rgba(84, 4, 148, 1);
+}

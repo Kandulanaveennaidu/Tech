@@ -1,0 +1,335 @@
+.techoptimalogo2Icon {
+  position: absolute;
+  top: 2.56rem;
+  left: 2.5rem;
+  width: 5.5rem;
+  height: 3.06rem;
+  object-fit: cover;
+}
+.aboutUs {
+  text-decoration: none;
+  color: white;
+}
+.aboutUs:hover {
+  color: #f9d71c;
+}
+.aboutUs,
+.services {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+}
+.aboutUsParent {
+  position: absolute;
+  top: 4.19rem;
+  left: 54.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.5rem;
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: "Duera-NormMedi-PERSONAL.ttf";
+}
+.getInTouch {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.38rem;
+  height: 1rem;
+  flex-shrink: 0;
+  font-family: "Duera-NormMedi-PERSONAL.ttf";
+}
+.getInTouchWrapper {
+  position: absolute;
+  top: 3.06rem;
+  left: 79.06rem;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 12.56rem;
+  height: 3.13rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.getInTouchWrapper:hover {
+  color: yellow;
+}
+.scrollSlowlyFor {
+  position: absolute;
+  top: 41rem;
+  left: calc(50% - 93px);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  line-height: 126.2%;
+  font-weight: 300;
+  display: inline-block;
+  width: 11.63rem;
+  height: 1.63rem;
+  font-family: "Duera-NormLigh-PERSONAL.ttf";
+}
+.empoweringDigitalTransformat,
+.letsConnect {
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.empoweringDigitalTransformat {
+  line-height: 6.25rem;
+  width: 90rem;
+  height: 9.44rem;
+  flex-shrink: 0;
+  left: -70px;
+  font-size: 60px;
+}
+.letsConnect {
+  flex: 1;
+  line-height: 126.2%;
+  font-weight: 500;
+  height: 1.9rem;
+  left: -85px;
+  font-size: 27px;
+  font-family: "Duera-NormMedi-PERSONAL.ttf";
+}
+.vectorIcon {
+  position: relative;
+  width: 1.75rem;
+  height: 1.38rem;
+}
+.vectorWrapper {
+  border-radius: 30px;
+  background-color: #540494;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1.13rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-left: -88px;
+}
+.vectorWrapper:hover {
+  background-color: yellow;
+}
+.empoweringDigitalTransformatParent,
+.letsConnectParent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.letsConnectParent {
+  width: Fixed (274px);
+  height: Hug (60px);
+  gap: 28px;
+  font-family: "Duera PERSONAL USE Normal";
+}
+.empoweringDigitalTransformatParent {
+  position: absolute;
+  top: 13.25rem;
+  left: 6.75rem;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 3.75rem;
+}
+.layer1Icon {
+  top: 69.31rem;
+  left: 11.75rem;
+  width: 10.41rem;
+  height: 40.25rem;
+}
+.cloudIcon,
+.frameIcon,
+.layer1Icon {
+  position: absolute;
+  overflow: hidden;
+}
+.frameIcon {
+  top: 65.13rem;
+  left: -16rem;
+  width: 53.62rem;
+  height: 27.33rem;
+}
+.cloudIcon {
+  top: 52.19rem;
+  left: calc(50% - 729px);
+  width: 91.13rem;
+  height: 11.81rem;
+  display: none;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 2.73%;
+  top: 59.73%;
+  bottom: 23.54%;
+  left: calc(50% - 10px);
+  max-height: 100%;
+  width: 1.25rem;
+}
+.homeItem,
+.ourMission {
+  position: absolute;
+  top: 31.4rem;
+  left: calc(50% - 0.5px);
+  width: 0.1rem;
+  height: 7.56rem;
+}
+.ourMission {
+  top: 50.94rem;
+  left: calc(50% - 306px);
+  font-size: 6.25rem;
+  letter-spacing: 0.04em;
+  line-height: 6.25rem;
+  display: inline-block;
+  width: 38.25rem;
+  height: 5.38rem;
+}
+.home {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  height: 1000px;
+}
+.homeChild,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+}
+
+.homeChild {
+  background-color: #07041b;
+  height: 64rem;
+  width: 100%;
+}
+
+.trailingCursorIcon {
+  height: 59.94rem;
+}
+
+.maskGroupIcon {
+  position: absolute;
+  top: calc(50% - 368px);
+  left: 0;
+  width: 92.06rem;
+  height: 42.19rem;
+}
+.menu {
+  margin-top: -14px;
+  display: flex;
+  margin-right: -35px;
+  margin-left: -55px;
+}
+.about {
+  text-decoration: none;
+  color: #540494;
+}
+.about:hover {
+  background-color: yellow;
+}
+select {
+  font-size: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #07041b;
+  width: 20px;
+  margin-left: -55px;
+  color: white;
+  border-radius: none;
+  white-space: nowrap;
+}
+
+option {
+  font-size: 12px;
+}
+
+.empoweringDigitalTransformats {
+  margin-top: -112px;
+  margin-left: -120px;
+}
+
+@keyframes infiniteScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30%);
+  }
+}
+.vectorIcon1 {
+  animation: infiniteScroll 1s linear infinite;
+}
+
+.parallaxImageY {
+  position: relative;
+  height: 900vh;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.parallaxImageX {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  width: 100%;
+  height: 800px;
+  transform: translate3d(0, 0, 0);
+  opacity: 0.7;
+}
+/* Empoweringdigital.module.css */
+
+/* Add your existing styles here */
+
+/* @media screen and (max-width: 767px) {
+  .home {
+    font-size: 1.1rem;
+  }
+
+  .aboutUs,
+  .services {
+    font-size: 1.2rem;
+  }
+
+  .scrollSlowlyFor {
+    font-size: 1.2rem;
+  }
+  .letsConnect {
+    font-size: 2.1rem;
+  }
+} */
+
+.parallaxImageX {
+  transform: perspective(1000px) translateZ(0) scale(1.1);
+  transition: transform 0.5s;
+}
+
+.parallaxImageX:hover {
+  transform: perspective(1000px) translateZ(20px) scale(1.1);
+}
+
+.cloudIcon {
+  animation: rotateCloud 5s linear infinite;
+}
+
+@keyframes rotateCloud {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

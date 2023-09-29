@@ -1,0 +1,1139 @@
+.home8Child,
+.trailingCursorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+}
+.home8Child {
+  background-color: #07041b;
+  height: 64rem;
+}
+.trailingCursorIcon {
+  height: 59.94rem;
+}
+.techoptimalogo2Icon {
+  position: absolute;
+  top: -24.94rem;
+  left: 2.5rem;
+  width: 5.5rem;
+  height: 3.06rem;
+  object-fit: cover;
+}
+.services {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+}
+.servicesParent {
+  position: absolute;
+  top: -23.31rem;
+  left: 36.56rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.5rem;
+  text-align: left;
+}
+.getInTouch {
+  position: relative;
+  line-height: 126.2%;
+  font-weight: 500;
+  display: inline-block;
+  width: 6.38rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.getInTouchWrapper {
+  position: absolute;
+  top: -24.44rem;
+  left: 75.06rem;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 12.56rem;
+  height: 3.13rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.63rem;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.empoweringDigitalTransformat,
+.letsConnect {
+  position: absolute;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.empoweringDigitalTransformat {
+  top: -29.06rem;
+  left: calc(50% - 316px);
+  font-size: 1.94rem;
+  line-height: 3.23rem;
+  width: 39.5rem;
+  height: 5.39rem;
+}
+.letsConnect {
+  top: -20.05rem;
+  left: calc(50% - 76px);
+  font-size: 0.87rem;
+  line-height: 126.2%;
+  font-weight: 500;
+  text-align: left;
+  width: 6.02rem;
+  height: 0.75rem;
+}
+.vectorIcon {
+  position: relative;
+  width: 0.58rem;
+  height: 0.78rem;
+}
+.vectorWrapper {
+  position: absolute;
+  top: -20.5rem;
+  left: 47.18rem;
+  border-radius: 18.14px;
+  background-color: #540494;
+  height: 1.94rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0.58rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.layer1Icon {
+  top: -59.56rem;
+  left: 8.45rem;
+  width: 9.17rem;
+  height: 35.46rem;
+}
+.frameIcon,
+.layer1Icon,
+.layer1Icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.frameIcon {
+  top: -38.8rem;
+  left: -16rem;
+  width: 47.25rem;
+  height: 32.93rem;
+}
+.layer1Icon1 {
+  top: -14.59rem;
+  left: calc(50% - 730.3px);
+  width: 90.64rem;
+  height: 12.93rem;
+}
+.blueBox {
+  position: absolute;
+  height: 99.71%;
+  top: 0;
+  bottom: 0.29%;
+  left: 0;
+  background-color: #07041b;
+  width: 90rem;
+}
+.atTechoptimaOur,
+.ourMission {
+  position: absolute;
+  display: inline-block;
+}
+.ourMission {
+  top: -59.56rem;
+  left: calc(50% - 0px);
+  font-size: 1.61rem;
+  letter-spacing: 0.04em;
+  line-height: 1.61rem;
+  width: 9.83rem;
+  height: 1.38rem;
+}
+.atTechoptimaOur {
+  top: 3.3rem;
+  left: calc(50% - 258.98px);
+  line-height: 1.76rem;
+  font-weight: 600;
+  width: 32.37rem;
+  height: 16.03rem;
+}
+.atTechoptimaOurMissionIsWrapper {
+  position: absolute;
+  top: -51.85rem;
+  left: 45.31rem;
+  border-radius: 13.41px;
+  background-color: #fff;
+  width: 36.67rem;
+  height: 22.26rem;
+  overflow: hidden;
+  font-size: 1.26rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.whiteBox {
+  position: absolute;
+  top: 245.31rem;
+  left: -11.87rem;
+  background-color: #fff;
+  width: 90rem;
+  height: 64rem;
+}
+.groupIcon {
+  position: absolute;
+  height: 66.91%;
+  width: 80.65%;
+  top: 21.8%;
+  right: 9.68%;
+  bottom: 11.29%;
+  left: 9.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  mix-blend-mode: multiply;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 89.5%;
+  width: 100%;
+  top: 10.5%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  height: 8.38%;
+  width: 5.55%;
+  top: 37.33%;
+  right: 71.57%;
+  bottom: 54.29%;
+  left: 22.88%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  right: 22.88%;
+  left: 71.57%;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  top: 64.79%;
+  bottom: 26.83%;
+}
+.vectorIcon5 {
+  right: 71.57%;
+  left: 22.88%;
+}
+.toBeThe {
+  position: absolute;
+  top: calc(50% - 99.15px);
+  left: calc(50% - 199.59px);
+  line-height: 1.36rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 24.95rem;
+  height: 12.35rem;
+}
+.toBeTheCatalystForBusinesWrapper {
+  position: absolute;
+  top: 0;
+  left: 109.56rem;
+  border-radius: 10.33px;
+  background-color: #fff;
+  width: 28.26rem;
+  height: 17.16rem;
+  overflow: hidden;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 6.64%;
+  top: 29.83%;
+  bottom: 63.53%;
+  left: calc(50% - 95.61px);
+  max-height: 100%;
+  width: 11.06rem;
+  opacity: 0.4;
+}
+.group,
+.layer1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.group {
+  height: 111.74%;
+  top: -11.74%;
+}
+.frameChild,
+.frameWrapper {
+  position: absolute;
+  left: 0;
+  border-radius: 20.12px;
+  width: 14.19rem;
+  height: 23rem;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.frameChild {
+  top: 0;
+  background: linear-gradient(
+    180deg,
+    #540494 4.17%,
+    rgba(112, 58, 155, 0.51) 93.23%,
+    rgba(40, 2, 70, 0)
+  );
+  filter: blur(7.19px);
+}
+.frameWrapper {
+  top: 3.05rem;
+  border: 1.4px solid #fff;
+  box-sizing: border-box;
+}
+.staffAugmentation {
+  position: absolute;
+  top: calc(50% - 85.51px);
+  left: calc(50% - 76.89px);
+  line-height: 1.51rem;
+  display: inline-block;
+  width: 9.84rem;
+  height: 1.44rem;
+}
+.highlyQualifiedProfessionals {
+  margin: 0;
+}
+.highlyQualifiedProfessionalsContainer {
+  position: absolute;
+  top: calc(50% - 22.28px);
+  left: calc(50% - 86.23px);
+  font-size: 0.81rem;
+  line-height: 1.11rem;
+  display: inline-block;
+  width: 10.87rem;
+  height: 12.17rem;
+}
+.layer1Icon2 {
+  position: relative;
+  width: 2.38rem;
+  height: 3.55rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Wrapper {
+  position: absolute;
+  top: 0;
+  left: 3.59rem;
+  border-radius: 51.74px;
+  background-color: #07041b;
+  box-shadow: 0 2.874446153640747px 2.87px rgba(0, 0, 0, 0.25);
+  border: 1.1px solid #fff;
+  box-sizing: border-box;
+  width: 6.11rem;
+  height: 6.11rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.45rem;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup,
+.layer1Icon3 {
+  position: relative;
+  width: 14.19rem;
+  height: 26.05rem;
+}
+.layer1Icon3 {
+  width: 4.13rem;
+  height: 3.28rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Container {
+  position: absolute;
+  top: 0;
+  left: 3.59rem;
+  border-radius: 51.74px;
+  background-color: #07041b;
+  border: 1.1px solid #fff;
+  box-sizing: border-box;
+  width: 6.11rem;
+  height: 6.11rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.45rem;
+  align-items: center;
+  justify-content: center;
+}
+.endToEndProjectExecutionContainer,
+.managedServices {
+  position: absolute;
+  top: calc(50% - 85.51px);
+  left: calc(50% - 74.73px);
+  line-height: 1.51rem;
+  display: inline-block;
+  width: 9.34rem;
+  height: 1.44rem;
+}
+.endToEndProjectExecutionContainer {
+  top: calc(50% - 22.28px);
+  left: calc(50% - 86.23px);
+  font-size: 0.81rem;
+  line-height: 1.11rem;
+  width: 10.87rem;
+  height: 9.84rem;
+}
+.layer1Icon4 {
+  position: relative;
+  width: 3.77rem;
+  height: 3.46rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lowCostProductsLeveragingContainer,
+.pointSolutions {
+  position: absolute;
+  top: calc(50% - 85.51px);
+  left: calc(50% - 68.27px);
+  line-height: 1.51rem;
+  display: inline-block;
+  width: 8.53rem;
+  height: 1.26rem;
+}
+.lowCostProductsLeveragingContainer {
+  top: calc(50% - 25.15px);
+  left: calc(50% - 86.23px);
+  font-size: 0.81rem;
+  line-height: 1.11rem;
+  width: 10.87rem;
+  height: 11.86rem;
+}
+.vectorIcon10,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  height: 79.2%;
+  width: 17.64%;
+  top: 20.8%;
+  right: 0;
+  bottom: 0;
+  left: 82.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon10,
+.vectorIcon8,
+.vectorIcon9 {
+  right: 17.65%;
+  left: 64.71%;
+}
+.vectorIcon10,
+.vectorIcon9 {
+  height: 1.42%;
+  width: 14.35%;
+  top: 23.98%;
+  right: 10.48%;
+  bottom: 74.6%;
+  left: 75.17%;
+}
+.vectorIcon10 {
+  height: 9.41%;
+  width: 7.79%;
+  top: 88.37%;
+  right: 13.75%;
+  bottom: 2.22%;
+  left: 78.46%;
+}
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14,
+.vectorIcon15 {
+  position: absolute;
+  height: 56.12%;
+  width: 16.1%;
+  top: 29.39%;
+  right: 17.48%;
+  bottom: 14.48%;
+  left: 66.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14,
+.vectorIcon15 {
+  width: 15.76%;
+  right: 1.72%;
+  left: 82.52%;
+}
+.vectorIcon13,
+.vectorIcon14,
+.vectorIcon15 {
+  height: 99.91%;
+  width: 31.34%;
+  top: 0;
+  right: 68.67%;
+  bottom: 0.09%;
+  left: 0;
+}
+.vectorIcon14,
+.vectorIcon15 {
+  right: 37.24%;
+  left: 31.42%;
+}
+.vectorIcon15 {
+  height: 8.48%;
+  width: 7.02%;
+  top: 89.83%;
+  right: 65.07%;
+  bottom: 1.69%;
+  left: 27.91%;
+}
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19,
+.vectorIcon20 {
+  position: absolute;
+  height: 2.91%;
+  width: 2.41%;
+  top: 2.59%;
+  right: 51.2%;
+  bottom: 94.5%;
+  left: 46.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19,
+.vectorIcon20 {
+  height: 78.86%;
+  width: 28.47%;
+  top: 8.27%;
+  right: 68.76%;
+  bottom: 12.87%;
+  left: 2.77%;
+}
+.vectorIcon18,
+.vectorIcon19,
+.vectorIcon20 {
+  width: 28.75%;
+  right: 40%;
+  left: 31.25%;
+}
+.vectorIcon19,
+.vectorIcon20 {
+  height: 89.12%;
+  width: 100%;
+  top: 10.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon20 {
+  height: 78.25%;
+  width: 96.27%;
+  top: 16.31%;
+  right: 1.86%;
+  bottom: 5.44%;
+  left: 1.87%;
+}
+.uiUx {
+  position: absolute;
+  height: 81.57%;
+  width: 52.24%;
+  top: 0;
+  left: 24.25%;
+  line-height: 0.98rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.vectorParent {
+  position: absolute;
+  height: 32.64%;
+  width: 78.74%;
+  top: 37.27%;
+  right: 15.38%;
+  bottom: 30.09%;
+  left: 5.88%;
+}
+.layer11 {
+  position: relative;
+  width: 3.41rem;
+  height: 2.83rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer1Wrapper1 {
+  position: absolute;
+  top: 0;
+  left: 3.59rem;
+  border-radius: 51.74px;
+  background-color: #07041b;
+  border: 1.1px solid #fff;
+  box-sizing: border-box;
+  width: 6.11rem;
+  height: 6.11rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.45rem;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.uiuxServices,
+.userCentricDesignApproachContainer {
+  position: absolute;
+  top: calc(50% - 85.51px);
+  left: calc(50% - 60.36px);
+  font-size: 1.08rem;
+  line-height: 1.51rem;
+  display: inline-block;
+  width: 7.59rem;
+  height: 1.44rem;
+}
+.userCentricDesignApproachContainer {
+  top: calc(50% - 22.28px);
+  left: calc(50% - 86.23px);
+  font-size: 0.81rem;
+  line-height: 1.11rem;
+  width: 10.87rem;
+  height: 11.14rem;
+}
+.frameParent2 {
+  position: relative;
+  width: 14.19rem;
+  height: 26.05rem;
+  font-size: 0.52rem;
+}
+.frameParent {
+  position: absolute;
+  top: 25.39rem;
+  left: 93.06rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.35rem;
+  font-size: 1.08rem;
+  color: #fff;
+}
+.frame {
+  position: absolute;
+  top: -177.37rem;
+  left: calc(50% - 1981px);
+  width: 247.63rem;
+  height: 146.44rem;
+  overflow: hidden;
+  font-size: 0.97rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.ourVision {
+  position: absolute;
+  top: -17.87rem;
+  left: calc(50% - 64.6px);
+  font-size: 1.36rem;
+  letter-spacing: 0.04em;
+  line-height: 1.36rem;
+  display: inline-block;
+  width: 7.15rem;
+  height: 1.17rem;
+}
+.home8Child1,
+.home8Child2,
+.home8Inner,
+.home8Item {
+  position: absolute;
+  top: -16.83rem;
+  left: 23.56rem;
+  width: 3.84rem;
+  height: 3.61rem;
+}
+.home8Child1,
+.home8Child2,
+.home8Inner {
+  left: 65.75rem;
+}
+.home8Child1,
+.home8Child2 {
+  top: -7.58rem;
+}
+.home8Child2 {
+  left: 23.64rem;
+}
+.home8Child3,
+.home8Child4 {
+  position: absolute;
+  height: 49.2%;
+  width: 74.76%;
+  top: -71.39%;
+  right: -15.83%;
+  bottom: 122.19%;
+  left: 41.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home8Child4 {
+  height: 48.4%;
+  width: 74.61%;
+  top: -69.86%;
+  right: 40.53%;
+  bottom: 121.46%;
+  left: -15.14%;
+}
+.ourValues {
+  position: absolute;
+  top: -25.27rem;
+  left: calc(50% - 79.26px);
+  font-size: 2.01rem;
+  letter-spacing: 0.04em;
+  line-height: 2.01rem;
+  display: inline-block;
+  width: 11.77rem;
+  height: 1.73rem;
+}
+.trustCollaborationAnd {
+  color: #46047c;
+}
+.span {
+  color: #540494;
+}
+.atTechoptimaWeContainer {
+  position: absolute;
+  top: calc(50% - 191.29px);
+  left: calc(50% - 253.68px);
+  line-height: 1.73rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 31.71rem;
+  height: 23.91rem;
+}
+.atTechoptimaWeHoldDeepReWrapper {
+  position: absolute;
+  top: -37.29rem;
+  left: 27.99rem;
+  border-radius: 13.14px;
+  background-color: #fff;
+  width: 35.92rem;
+  height: 27.81rem;
+  overflow: hidden;
+  font-size: 1.23rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.rectangleDiv {
+  position: absolute;
+  top: -26.25rem;
+  left: 0;
+  background-color: #07041b;
+  filter: blur(4px);
+  width: 90rem;
+  height: 10.19rem;
+}
+.chessboardIcon {
+  position: absolute;
+  top: -26.09rem;
+  left: calc(50% - 795px);
+  width: 96.83rem;
+  height: 14.54rem;
+  overflow: hidden;
+}
+.ourStrategy {
+  position: absolute;
+  top: -50.87rem;
+  left: calc(50% - 97.22px);
+  font-size: 2.11rem;
+  letter-spacing: 0.04em;
+  line-height: 2.11rem;
+  display: inline-block;
+  width: 14.64rem;
+  height: 1.82rem;
+}
+.home8Child5,
+.home8Child6 {
+  position: absolute;
+  height: 29.47%;
+  width: 12.89%;
+  top: -45.53%;
+  right: 67%;
+  bottom: 116.06%;
+  left: 20.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home8Child6 {
+  height: 18.21%;
+  width: 9.45%;
+  top: -31.07%;
+  right: 60.85%;
+  bottom: 112.86%;
+  left: 29.7%;
+}
+.ourStrategyAtContainer {
+  position: absolute;
+  top: calc(50% - 130.8px);
+  left: calc(50% - 266.78px);
+  line-height: 1.82rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 33.35rem;
+  height: 16.3rem;
+}
+.ourStrategyAtTechoptimaRevWrapper {
+  position: absolute;
+  top: -43.89rem;
+  left: 40.87rem;
+  border-radius: 13.81px;
+  background-color: #fff;
+  width: 37.77rem;
+  height: 22.93rem;
+  overflow: hidden;
+  font-size: 1.3rem;
+  color: #07041b;
+  font-family: Gilroy;
+}
+.home8Child7 {
+  position: absolute;
+  top: -35.62rem;
+  left: 0;
+  background-color: #07041b;
+  filter: blur(4px);
+  width: 90rem;
+  height: 11.25rem;
+  opacity: 0.7;
+}
+.ourServices {
+  position: absolute;
+  top: -22.87rem;
+  left: calc(50% - 99px);
+  font-size: 1.76rem;
+  letter-spacing: 0.04em;
+  line-height: 1.76rem;
+  display: inline-block;
+  width: 11.72rem;
+  height: 1.48rem;
+}
+.frameIcon1 {
+  position: absolute;
+  top: calc(50% + 2277px);
+  left: calc(50% + 1074px);
+  width: 81.19rem;
+  height: 49.94rem;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.ourTechnologyOfferings {
+  position: absolute;
+  top: calc(50% - 765px);
+  left: calc(50% - 228px);
+  font-size: 2.18rem;
+  letter-spacing: 0.04em;
+  line-height: 2.18rem;
+  display: inline-block;
+  color: #540494;
+  width: 29.27rem;
+  height: 1.66rem;
+}
+.enterprises,
+.javaNetOracleContainer {
+  position: absolute;
+  top: calc(50% - 77.32px);
+  left: calc(50% - 37.56px);
+  line-height: 1.03rem;
+  display: inline-block;
+  width: 4.74rem;
+  height: 1.01rem;
+}
+.javaNetOracleContainer {
+  top: calc(50% - 25.77px);
+  left: calc(50% - 83.21px);
+  font-size: 0.83rem;
+  line-height: 1.14rem;
+  font-weight: 500;
+  color: #fff;
+  width: 10.4rem;
+  height: 5.62rem;
+}
+.frameChild2 {
+  position: absolute;
+  top: 3.59rem;
+  left: calc(50% - 83.95px);
+  width: 10.52rem;
+  height: 0;
+}
+.enterprisesParent,
+.frameWrapper3 {
+  border-radius: 13.78px;
+  width: 12.98rem;
+  height: 12.98rem;
+  overflow: hidden;
+}
+.enterprisesParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #07041b;
+}
+.frameWrapper3 {
+  position: relative;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 0.92rem;
+}
+.aiml,
+.pythonRBigContainer {
+  position: absolute;
+  top: calc(50% - 77.32px);
+  left: calc(50% - 20.62px);
+  line-height: 1.03rem;
+  display: inline-block;
+  width: 2.62rem;
+  height: 0.83rem;
+}
+.pythonRBigContainer {
+  top: calc(50% - 28.72px);
+  left: calc(50% - 49.34px);
+  line-height: 1.14rem;
+  font-weight: 500;
+  color: #fff;
+  width: 6.21rem;
+  height: 4.33rem;
+}
+.frameParent4 {
+  position: relative;
+  border-radius: 13.78px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 12.98rem;
+  height: 12.98rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.integration,
+.webServicesMqContainer {
+  position: absolute;
+  top: calc(50% - 77.32px);
+  left: calc(50% - 34.61px);
+  line-height: 1.03rem;
+  display: inline-block;
+  width: 4.33rem;
+  height: 0.92rem;
+}
+.webServicesMqContainer {
+  top: calc(50% - 27.25px);
+  left: calc(50% - 66.28px);
+  line-height: 1.14rem;
+  font-weight: 500;
+  color: #fff;
+  width: 8.65rem;
+  height: 4.33rem;
+}
+.frameParent3 {
+  position: absolute;
+  top: -40.68rem;
+  left: calc(50% - 417px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7rem;
+  font-size: 0.83rem;
+  color: #eacfff;
+  font-family: Gilroy;
+}
+.devopsServices,
+.jenkinsJiraMavenant {
+  position: absolute;
+  top: calc(50% - 77.32px);
+  left: calc(50% - 54.49px);
+  line-height: 1.03rem;
+  display: inline-block;
+  width: 6.77rem;
+  height: 0.97rem;
+}
+.jenkinsJiraMavenant {
+  top: calc(50% - 26.51px);
+  left: calc(50% - 66.28px);
+  line-height: 1.14rem;
+  font-weight: 500;
+  color: #fff;
+  width: 8.28rem;
+  height: 5.52rem;
+}
+.dataAnalytics,
+.jaspersoftPowerBiContainer {
+  position: absolute;
+  top: calc(50% - 77.32px);
+  left: calc(50% - 46.39px);
+  line-height: 1.03rem;
+  display: inline-block;
+  width: 5.85rem;
+  height: 1.06rem;
+}
+.jaspersoftPowerBiContainer {
+  top: calc(50% - 25.04px);
+  left: calc(50% - 65.54px);
+  line-height: 1.14rem;
+  font-weight: 500;
+  color: #fff;
+  width: 8.28rem;
+  height: 4.33rem;
+}
+.seleniumJunitNunit,
+.testingServices {
+  position: absolute;
+  top: calc(50% - 77.32px);
+  left: calc(50% - 49.34px);
+  line-height: 1.03rem;
+  display: inline-block;
+  width: 6.17rem;
+  height: 1.06rem;
+}
+.seleniumJunitNunit {
+  top: calc(50% - 25.04px);
+  left: calc(50% - 74.38px);
+  line-height: 1.14rem;
+  font-weight: 500;
+  color: #fff;
+  width: 9.3rem;
+  height: 5.43rem;
+}
+.frameParent6 {
+  position: absolute;
+  top: -25.54rem;
+  left: calc(50% - 417px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7rem;
+  font-size: 0.83rem;
+  color: #eacfff;
+  font-family: Gilroy;
+}
+.industries1 {
+  position: absolute;
+  top: calc(50% - 334px);
+  left: calc(50% - 129px);
+  font-size: 47px;
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  width: 16.15rem;
+  height: 2.1rem;
+  opacity: 0.05;
+  font-family: "duera";
+}
+.bankIcon {
+  position: absolute;
+  top: 14.31rem;
+  left: 2.81rem;
+  width: 52.59rem;
+  height: 49.69rem;
+  overflow: hidden;
+}
+.home8Child8 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 95rem;
+  height: 35.85rem;
+}
+.bankingFinancials {
+  position: absolute;
+  top: calc(50% + 189px);
+  left: calc(53% + 170px);
+  font-size: 48px;
+  letter-spacing: 0.04em;
+  line-height: 2.97rem;
+  display: inline-block;
+  color: #430376;
+  width: 32.5rem;
+  height: 2.13rem;
+  font-family: "duera";
+}
+.enhanceYour {
+  font-weight: 600;
+}
+.financialOrganization {
+  color: #430376;
+}
+.withAdvancedTechnology {
+  color: #07041b;
+}
+.enhanceYourFinancialContainer {
+  position: absolute;
+  top: calc(50% + 287px);
+  left: calc(51% - 216px);
+  /* font-size: 1rem; */
+  line-height: 2.1rem;
+  text-align: right;
+  display: inline-block;
+  width: 55.81rem;
+  height: 8.25rem;
+  color: #07041b;
+  font-family: "gilroy-semi-bold";
+  font-size: 24px;
+}
+.home8 {
+  position: relative;
+  background-color: #07041b;
+  /* width: 100%;
+  height: 64rem; */
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #fff;
+  font-family: "duera";
+  width: 1518px;
+  /* width: 1530px; */
+  height: 1024px;
+}
+
+/* Existing CSS code here */
+
+/* Media Queries for Responsiveness */
+
+/* Small screens */
+@media (max-width: 768px) {
+  /* Adjust your styles here for small screens */
+}
+
+/* Medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust your styles here for medium screens */
+}
+
+/* Large screens */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Adjust your styles here for large screens */
+}
+
+/* Extra large screens */
+@media (min-width: 1441px) {
+  /* Adjust your styles here for extra large screens */
+}

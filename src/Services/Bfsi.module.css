@@ -1,0 +1,76 @@
+.frameIcon1 {
+  position: absolute;
+  top: 24.44rem;
+  left: 5.63rem;
+  width: 26.75rem;
+  height: 23.69rem;
+  overflow: hidden;
+}
+.bfsi,
+.ourDomainExpertise {
+  position: absolute;
+  font-size: 2.77rem;
+  letter-spacing: 0.04em;
+  line-height: 2.77rem;
+  display: inline-block;
+}
+.ourDomainExpertise {
+  top: 11.14rem;
+  left: calc(50% - 243.5px);
+  width: 30.53rem;
+  height: 2.1rem;
+  opacity: 0.05;
+  font-size: 44.29px;
+}
+.bfsi {
+  top: 16.75rem;
+  left: calc(50% - 127.5px);
+  color: #f8efff;
+  width: 6rem;
+  height: 2.13rem;
+  font-size: 44.29px;
+}
+.revolutionizeBfsiTechnology {
+  position: relative;
+  line-height: 2.1rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 42.44rem;
+  height: 31.19rem;
+  flex-shrink: 0;
+}
+.revolutionizeBfsiTechnologyWrapper {
+  position: absolute;
+  top: calc(54% - 183px);
+  left: calc(46% - 71.5px);
+  border-radius: 16px;
+  background-color: #fff;
+  width: 46.75rem;
+  height: 35.25rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.13rem;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  color: #07041b;
+  /* font-family: Gilroy; */
+  font-family: inherit;
+  font-family: "gilroy-semi-bold";
+  font-size: 24px;
+}
+.services5 {
+  position: relative;
+  background-color: #07041b;
+  width: 100%;
+  height: 60.75rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.88rem;
+  color: #fff;
+  font-family: "Duera";
+  width: 1518px;
+  height: 1024px;
+}
