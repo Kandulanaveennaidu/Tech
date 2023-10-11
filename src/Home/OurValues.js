@@ -1,9 +1,30 @@
 import styles from "./OurValues.module.css"
 import CoreCompetencies from "./CoreCompetencies"
+import { useEffect } from "react";
 const OurValues = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.aboutus10}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.aboutus10}>
+            {/* <div className={styles.aboutus10}> */}
+            <div className={`${styles.aboutus10} ${styles.hidden}`}>
                 <img className={styles.aboutus10Child3} alt="" src="/group-50ss.svg" />
                 <img className={styles.aboutus10Child4} alt="" src="/group-49ss.svg" />
                 <div className={styles.rectangleDiv} />

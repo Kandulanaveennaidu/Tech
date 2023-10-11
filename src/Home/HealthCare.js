@@ -1,10 +1,32 @@
+import { useEffect } from "react";
 import styles from "./HealthCare.module.css";
 import KeyDifferentators from "./KeyDifferentators"
 import TitleInsurance from "./TitleInsurance";
 const HealthCare = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home10}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home10}>
+            {/* <div className={styles.home10}> */}
+            <div className={`${styles.home10} ${styles.hidden}`}>
+
                 <b className={styles.industries1}>INDUSTRIES</b>
                 <img className={styles.home10Child8} alt="" src="/group-57.svg" />
                 <img className={styles.home10Child9} alt="" src="/vector-851.svg" />

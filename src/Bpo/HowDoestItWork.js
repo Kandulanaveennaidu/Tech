@@ -1,9 +1,30 @@
 import styles from "./HowDoestWork.module.css";
 import HowCanWeHelpWithBpo from "./HowCanWeHelpWithBpo"
+import { useEffect } from "react";
 const HowDoestItWork = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo2}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo2}>
+      {/* <div className={styles.bpo2}> */}
+      <div className={`${styles.bpo2} ${styles.hidden}`}>
         <img className={styles.layer1Icon} alt="" src="/layer-1B.svg" />
         <b className={styles.howDoesIt}>HOW DOES IT WORK?</b>
         <div className={styles.collaborativeSynergyWeWorkWrapper}>

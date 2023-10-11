@@ -1,11 +1,31 @@
+import { useEffect } from "react";
 import styles from "./OurMission.module.css";
 import OurStrategy from "./OurStrategy ";
 // import OurVision from "./OurVision";
 const OurMission = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus3 = document.querySelector(`.${styles.aboutus3}`);
+            const offset = aboutus3.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
 
+            if (offset < windowHeight * 0.7) {
+                aboutus3.classList.add(styles.show);
+            } else {
+                aboutus3.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.aboutus3}>
+            {/* <div className={styles.aboutus3}> */}
+            <div className={`${styles.aboutus3} ${styles.hidden}`}>
                 <div className={styles.aboutus3Child} />
 
                 <img className={styles.layer1Icon} alt="" src="/layerss-1.svg" />

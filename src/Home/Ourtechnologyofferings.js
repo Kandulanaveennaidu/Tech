@@ -1,4 +1,3 @@
-import { FunctionComponent } from 'react';
 import styles from './Ourtechnologyofferings.module.css';
 import BankandFinance from './BankandFinance';
 const Ourtechnologyofferings = () => {

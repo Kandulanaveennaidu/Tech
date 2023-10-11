@@ -1,9 +1,31 @@
+import { useEffect } from "react";
 import styles from "./KeyDifferentators.module.css";
 import OurCaseStudies from "./OurCaseStudies";
 const KeyDifferentators = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home16}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home16}>
+            {/* <div className={styles.home16}> */}
+            <div className={`${styles.home16} ${styles.hidden}`}>
+
                 <b className={styles.keyDifferentiators}>KEY DIFFERENTIATORS</b>
                 <img className={styles.icon} alt="" src="/-1.svg" />
                 <img className={styles.icon1} alt="" src="/2.svg" />

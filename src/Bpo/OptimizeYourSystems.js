@@ -1,9 +1,30 @@
 import styles from "./OptimizeYourSystems.module.css";
 import BestPractices from "./BestPractices"
+import { useEffect } from "react";
 const OptimizeYourSystems = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo12}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo12}>
+      {/* <div className={styles.bpo12}> */}
+      <div className={`${styles.bpo12} ${styles.hidden}`}>
         <b className={styles.optimizeYourSystems}>OPTIMIZE YOUR SYSTEMS</b>
         <img className={styles.vectorIcon} alt="" src="/vectorBB.svg" />
         <img className={styles.vectorIcon1} alt="" src="/vector1BB.svg" />

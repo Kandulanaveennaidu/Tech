@@ -1,15 +1,42 @@
 import { Link } from "react-router-dom";
 import styles from "./WhyOutSourceBpo.module.css";
 import HowDoestItWork from "./HowDoestItWork";
+import React, { useState } from "react";
 const WhyOutSourceBpo = () => {
+  const [cursorX, setCursorX] = useState(0);
+  const [cursorY, setCursorY] = useState(0);
+  const [showDropdown, setShowDropdown] = useState(false);
   const handleSelectChange = (event) => {
     const selectedValue = event.target.value;
     if (selectedValue) {
       window.location.href = selectedValue;
     }
   };
+  const handleHover = () => {
+    setShowDropdown(true);
+  };
+
+  const handleLeave = () => {
+    setShowDropdown(false);
+  };
+  const handleMouseMove = (e) => {
+    const x = e.clientX;
+    const y = e.clientY + window.scrollY;
+
+    setCursorX(x);
+    setCursorY(y);
+  };
+  React.useEffect(() => {
+    document.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
   return (
     <>
+      <div className={styles.cursor} style={{ transform: `translate(${cursorX}px, ${cursorY}px)` }} />
       <div className={styles.bpo}>
         <div>
           <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
@@ -25,14 +52,32 @@ const WhyOutSourceBpo = () => {
           <Link to="/about" className={styles.aboutUs}>
             About Us
           </Link>
-          <Link to="/" className={styles.aboutUs}>
+          {/* <Link to="/" className={styles.aboutUs}>
             Services
           </Link>
           <select className={styles.select} onChange={handleSelectChange}>
             <option value="/"></option>
             <option value="/service">IT SERVICES</option>
             <option value="/BPO">TOS (BPO)</option>
-          </select>
+          </select> */}
+
+          <div
+            className={styles.dropdown}
+            onMouseEnter={handleHover}
+            onMouseLeave={handleLeave}
+          >
+            <span className={styles.aboutUs}>Services</span>
+            <div
+              className={showDropdown ? `${styles.dropdownContent} ${styles.show}` : styles.dropdownContent}
+            >
+              <Link to="/service" className={styles.dropdownItem}>
+                IT SERVICES
+              </Link>
+              <Link to="/BPO" className={styles.dropdownItem}>
+                TOS (BPO)
+              </Link>
+            </div>
+          </div>
           <Link to="/" className={styles.aboutUs}>
             Careers
           </Link>
@@ -59,6 +104,7 @@ const WhyOutSourceBpo = () => {
           </p>
         </div>
       </div>
+      <div />
       <HowDoestItWork />
     </>
   );

@@ -123,7 +123,7 @@
   color: #fff;
   font-family: "Duera";
   width: 1518px;
-  height: 1024px;
+  height: 1000px;
 }
 .groupParent:hover {
   transform: scale(1.1); /* Increase size on hover */
@@ -136,4 +136,14 @@
 .groupParent1:hover {
   transform: scale(1.1); /* Increase size on hover */
   transition: transform 0.3s ease; /* Add a smooth transition */
+}
+.services3 {
+  opacity: 0;
+  transform: translateY(-100px) scale(0.5);
+  transition: opacity 1s, transform 1s;
+}
+
+.services3.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }

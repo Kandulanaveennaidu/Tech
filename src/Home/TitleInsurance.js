@@ -1,11 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "./TitleInsurance.module.css"
 import KeyDifferentators from './KeyDifferentators'
 // import CoreCompetencies from "./CoreCompetencies"
 const TitleInsurance = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home12}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home12}>
+            {/* <div className={styles.home12}> */}
+            <div className={`${styles.home12} ${styles.hidden}`}>
+
                 <b className={styles.industries1}>INDUSTRIES</b>
                 <img
                     className={styles.insurancePolicyIcon}

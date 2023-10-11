@@ -1,9 +1,31 @@
 import styles from "./DomainMasteryUnleashed.module.css";
 import BpoProcessSetupSteps from "./BpoProcessSetupSteps";
+import { useEffect } from "react";
 const DomainMasteryUnleashed = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo8}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo8}>
+      {/* <div className={styles.bpo8}> */}
+      <div className={`${styles.bpo8} ${styles.hidden}`}>
+
         <div className={styles.blueBox} />
         <b className={styles.domainMasteryUnleashed}>DOMAIN MASTERY UNLEASHED</b>
         <div className={styles.frameParent1}>

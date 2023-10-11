@@ -355,7 +355,7 @@
   width: 69.38rem;
   height: 13.69rem;
 }
-.bpo17 {
+.bpoContainer {
   position: relative;
   background-color: #07041b;
   width: 100%;
@@ -367,4 +367,14 @@
   font-family: "duera";
   width: 1518px;
   height: 700px;
+}
+.bpoContainer {
+  opacity: 0;
+  transform: translateY(-100px) scale(0.5);
+  transition: opacity 1s, transform 1s;
+}
+
+.bpoContainer.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }

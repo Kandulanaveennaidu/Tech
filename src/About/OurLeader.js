@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from "react-router-dom";
 import styles from "./OurLeader.module.css";
 import { useState } from "react";
@@ -18,10 +18,31 @@ const OurLeader = () => {
     const handleCloseModal = () => {
         setShowModal(false);
     }
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home22}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
 
-            <div className={styles.home22}>
+            {/* <div className={styles.home22}> */}
+            <div className={`${styles.home22} ${styles.hidden}`}>
+
                 <b className={styles.ourLeaders} style={{ fontSize: '47px', whiteSpace: 'nowrap' }}>OUR FOUNDING LEADERS</b>
                 <div className={styles.knowTheTeamWrapper}>
                     <div className={styles.knowTheTeam}>Know the Team</div>

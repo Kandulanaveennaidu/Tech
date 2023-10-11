@@ -1,9 +1,31 @@
 import styles from "./StreamlinedProcess.module.css";
 import DomainMasteryUnleashed from "./DomainMasteryUnleashed"
+import { useEffect } from "react";
 const StreamlinedProcess = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo6}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo6}>
+      {/* <div className={styles.bpo6}> */}
+      <div className={`${styles.bpo6} ${styles.hidden}`}>
+
         <b className={styles.streamlinedProcessesFor}>
           STREAMLINED PROCESSES FOR BPO SUCCESS
         </b>

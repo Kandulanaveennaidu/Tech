@@ -1,10 +1,30 @@
 import styles from "./CoreCompetencies.module.css";
 import BankandFinance from "./BankandFinance";
+import { useEffect } from "react";
 const CoreCompetencies = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home14}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home14}>
-
+            {/* <div className={styles.home14}> */}
+            <div className={`${styles.home14} ${styles.hidden}`}>
                 <b className={styles.coreCompetencies}>CORE COMPETENCIES</b>
                 <div className={styles.frameParent10}>
                     <div className={styles.groupWrapper}>

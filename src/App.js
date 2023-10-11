@@ -8,6 +8,7 @@ import Casestudy3 from "./casestudy/casestudy3";
 import Casestudy4 from "./casestudy/casestudy4";
 import WhyOutSourceBpo from "./Bpo/WhyOutSourceBpo";
 import OurService from "./Services/Ourservice";
+import "./App.css"
 
 function App() {
   return (

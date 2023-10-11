@@ -1,9 +1,30 @@
+import { useEffect } from "react";
 import styles from "./QualityMetricesForBetterResults.module.css";
 import StrongTeamsStrongBpoResults from "./StrongTeamsStrongBpoResults";
 const QualityMetricesForBetterResults = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo15}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo15}>
+      {/* <div className={styles.bpo15}> */}
+      <div className={`${styles.bpo15} ${styles.hidden}`}>
         <b className={styles.qualityMetricsFor}>
           QUALITY METRICS FOR BETTER RESULTS
         </b>

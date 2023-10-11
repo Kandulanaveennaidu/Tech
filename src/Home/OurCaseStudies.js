@@ -1,11 +1,33 @@
 import { Link } from "react-router-dom";
 import styles from "./OurCaseStudies.module.css";
 import OurClients from "./OurClients";
+import { useEffect } from "react";
 const Home20 = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home20}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
 
-            <div className={styles.home20}>
+            {/* <div className={styles.home20}> */}
+            <div className={`${styles.home20} ${styles.hidden}`}>
+
                 <b className={styles.ourCaseStudies}>OUR CASE STUDIES</b>
                 <div className={styles.component778Parent}>
 

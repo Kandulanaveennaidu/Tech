@@ -1,9 +1,31 @@
+import { useEffect } from "react";
 import styles from "./BpoProcessSetupSteps.module.css";
 import OptimizeYourSystems from "./OptimizeYourSystems";
 const BpoProcessSetupSteps = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo10}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo10}>
+      {/* <div className={styles.bpo10}> */}
+      <div className={`${styles.bpo10} ${styles.hidden}`}>
+
         <b className={styles.bpoProcessSetup}>BPO PROCESS SETUP STEPS</b>
         <img className={styles.vectorIcon} alt="" src="/vectorB.svg" />
         <img className={styles.vectorIcon1} alt="" src="/vector1B.svg" />

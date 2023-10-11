@@ -1,15 +1,42 @@
 import { Link } from "react-router-dom";
 import styles from "./AboutTechOptima.module.css";
 import WhyChooseUs from "./WhyChooseUs";
+import React, { useState } from "react";
 const AboutTechOptima = () => {
+    const [cursorX, setCursorX] = useState(0);
+    const [cursorY, setCursorY] = useState(0);
+    const [showDropdown, setShowDropdown] = useState(false);
     const handleSelectChange = (event) => {
         const selectedValue = event.target.value;
         if (selectedValue) {
             window.location.href = selectedValue;
         }
     };
+    const handleMouseMove = (e) => {
+        const x = e.clientX;
+        const y = e.clientY + window.scrollY;
+
+        setCursorX(x);
+        setCursorY(y);
+    };
+    React.useEffect(() => {
+        document.addEventListener("mousemove", handleMouseMove);
+
+        return () => {
+            document.removeEventListener("mousemove", handleMouseMove);
+        };
+    }, []);
+    const handleHover = () => {
+        setShowDropdown(true);
+    };
+
+    const handleLeave = () => {
+        setShowDropdown(false);
+    };
+
     return (
         <>
+            <div className={styles.cursor} style={{ transform: `translate(${cursorX}px, ${cursorY}px)` }} />
             <div className={styles.aboutus1}>
                 <div className={styles.aboutus1Child} />
                 <Link to="/"  >
@@ -24,14 +51,31 @@ const AboutTechOptima = () => {
                     <Link to="/about" className={styles.aboutUs}>
                         About Us
                     </Link>
-                    <Link to="/" className={styles.aboutUs}>
+                    {/* <Link to="/" className={styles.aboutUs}>
                         Services
                     </Link>
                     <select className={styles.select} onChange={handleSelectChange}>
                         <option value="/"></option>
                         <option value="/service">IT SERVICES</option>
                         <option value="/BPO">TOS (BPO)</option>
-                    </select>
+                    </select> */}
+                    <div
+                        className={styles.dropdown}
+                        onMouseEnter={handleHover}
+                        onMouseLeave={handleLeave}
+                    >
+                        <span className={styles.aboutUs}>Services</span>
+                        <div
+                            className={showDropdown ? `${styles.dropdownContent} ${styles.show}` : styles.dropdownContent}
+                        >
+                            <Link to="/service" className={styles.dropdownItem}>
+                                IT SERVICES
+                            </Link>
+                            <Link to="/BPO" className={styles.dropdownItem}>
+                                TOS (BPO)
+                            </Link>
+                        </div>
+                    </div>
                     <Link to="/" className={styles.aboutUs}>
                         Careers
                     </Link>
@@ -66,6 +110,7 @@ const AboutTechOptima = () => {
                     </p>
                 </div>
             </div >
+            <div />
             <WhyChooseUs />
         </>
     );

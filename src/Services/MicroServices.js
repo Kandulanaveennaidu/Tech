@@ -1,9 +1,31 @@
 import styles from "./MicroServices.module.css";
 import Bfsi from "./Bfsi";
+import { useEffect } from "react";
 const MicroServices = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.services3}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.services3}>
+            {/* <div className={styles.services3}> */}
+            <div className={`${styles.services3} ${styles.hidden}`}>
+
                 <img className={styles.services3Child} alt="" src="/rectangle-2sss.svg" />
                 <b className={styles.ourApproach}>OUR MICRO SERVICES</b>
                 <div className={styles.frameParent3}>

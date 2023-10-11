@@ -1,10 +1,32 @@
 // import HealthCare from "./HealthCare";
+import { useEffect } from "react";
 import styles from "./BankandFinance.module.css";
 import HealthCare from "./HealthCare";
 const BankandFinance = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home8}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home8}>
+            {/* <div className={styles.home8}> */}
+            <div className={`${styles.home8} ${styles.hidden}`}>
+
                 <b className={styles.industries1}>INDUSTRIES</b>
                 <img className={styles.bankIcon} alt="" src="/bank.svg" />
                 <img className={styles.home8Child8} alt="" src="/vector-85.svg" />

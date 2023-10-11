@@ -1,12 +1,34 @@
+import { useEffect } from "react";
 import Contact from "./Contact";
 import OurLeader from "./OurLeader";
 import styles from "./WhyChooseUs.module.css";
 // import OurCaseStudies from "./OurCaseStudies";
 
 const WhyChooseUs = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home18}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home18}>
+            {/* <div className={styles.home18}> */}
+            <div className={`${styles.home18} ${styles.hidden}`}>
+
                 <b className={styles.whyChooseUs}>WHY CHOOSE US?</b>
                 <div className={styles.satisfiedParent}>
                     <img className={styles.satisfiedIcon} alt="" src="/satisfied.svg" />

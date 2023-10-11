@@ -1,12 +1,33 @@
+import { useEffect } from "react";
 import styles from "./Contact.module.css";
 import GlobalPresence from "./GlobalPresence";
 import OurLeader from "./OurLeader";
 
 const Contact = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.home26}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
 
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.home26}>
+            {/* <div className={styles.home26}> */}
+            <div className={`${styles.home26} ${styles.hidden}`}>
+
                 <b className={styles.contactUs}>CONTACT US</b>
                 <b className={styles.getintoch}>Get in Touch with Us for a Personalised Conversation</b>
                 <div className={styles.siderightside} >

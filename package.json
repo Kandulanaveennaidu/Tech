@@ -22,9 +22,11 @@
     "react-animated-cursor": "^2.8.1",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
+    "react-spring": "^9.7.3",
     "react-three-fiber": "^6.0.13",
     "three": "^0.156.1",
     "web-vitals": "^2.1.4"
@@ -52,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }

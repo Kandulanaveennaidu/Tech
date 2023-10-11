@@ -1,9 +1,30 @@
 import styles from "./StrongTeamsStrongBpoResults.module.css";
 import FetureDirectionsAndBeyond from "./FetureDirectionsAndBeyond";
+import { useEffect } from "react";
 const StrongTeamsStrongBpoResults = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutus13 = document.querySelector(`.${styles.bpo16}`);
+      const offset = aboutus13.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (offset < windowHeight * 0.7) {
+        aboutus13.classList.add(styles.show);
+      } else {
+        aboutus13.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.bpo16}>
+      {/* <div className={styles.bpo16}> */}
+      <div className={`${styles.bpo16} ${styles.hidden}`}>
         <b className={styles.strongTeamsStrong}>
           STRONG TEAMS, STRONG BPO RESULTS
         </b>

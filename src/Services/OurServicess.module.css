@@ -741,3 +741,57 @@
   transform: scale(1.1); /* Increase size on hover */
   transition: transform 0.3s ease; /* Add a smooth transition */
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownContent a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+.cursor {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  backdrop-filter: blur(10px);
+}
+
+.cursor::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-color: rgba(172, 49, 230, 0.1); /* Adjust the opacity */
+  border-radius: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(22px);
+  z-index: -1;
+}

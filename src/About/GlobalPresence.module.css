@@ -151,3 +151,13 @@
   height: 64rem;
   width: 100%;
 }
+.aboutus18 {
+  opacity: 0;
+  transform: translateY(-100px) scale(0.5);
+  transition: opacity 1s, transform 1s;
+}
+
+.aboutus18.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}

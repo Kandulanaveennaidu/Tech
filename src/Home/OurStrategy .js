@@ -1,9 +1,30 @@
+import { useEffect } from "react";
 import styles from "./OurStrategy.module.css";
 import OurValues from "./OurValues"
 const OurStrategy = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutus13 = document.querySelector(`.${styles.aboutus13}`);
+            const offset = aboutus13.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (offset < windowHeight * 0.7) {
+                aboutus13.classList.add(styles.show);
+            } else {
+                aboutus13.classList.remove(styles.show);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     return (
         <>
-            <div className={styles.aboutus13}>
+            {/* <div className={styles.aboutus13}> */}
+            <div className={`${styles.aboutus13} ${styles.hidden}`}>
                 <div className={styles.aboutus13Child4} />
                 <img className={styles.chessboardIcon} alt="" src="/chessboardss.svg" />
                 <b className={styles.ourStrategy}>OUR STRATEGY</b>
